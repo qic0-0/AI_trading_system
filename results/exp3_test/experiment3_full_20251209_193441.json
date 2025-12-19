@@ -1,0 +1,625 @@
+[
+  {
+    "ticker": "NVDA",
+    "category": "custom",
+    "system_mode": "llm_only",
+    "model_type": "none",
+    "success": true,
+    "metrics": {
+      "cumulative_return": 0.0,
+      "cumulative_return_pct": "0.00%",
+      "sharpe_ratio": 0.0,
+      "max_drawdown": 0,
+      "max_drawdown_pct": "0.00%",
+      "directional_accuracy": 0.0,
+      "directional_accuracy_pct": "N/A",
+      "win_rate": 0.0,
+      "win_rate_pct": "N/A",
+      "num_trades": 0,
+      "initial_value": 100000.0,
+      "final_value": 100000.0,
+      "num_decisions": 37
+    },
+    "decisions": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 87.8991470336914,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the 1M momentum is stro",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 91.38837432861328,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA is neutral due to mixed signals. On one hand, the 1M momentum ",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.4,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 90.30992889404297,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the stock has shown str",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 87.96312713623047,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the high P/E ratio of 4",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 88.14104461669922,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the 1M momentum is slig",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 76.16114044189453,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the high P/E ratio of 4",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 87.69026947021484,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the stock's 1M momentum",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 88.74372100830078,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents mixed signals. On one hand, the 1M momentum is slight",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 89.83216857910156,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA is neutral due to a lack of recent news and a quantitative mod",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 92.43183135986328,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the stock's 1M momentum",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 106.41471099853516,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA is neutral due to the lack of recent news and a quantitative m",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 114.94136047363281,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the stock has shown str",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 121.72789764404297,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the stock has experienc",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 130.92396545410156,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the 1M momentum of +41.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.4,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 126.03604125976562,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents mixed signals. On one hand, the 1M momentum of +18.4%",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 122.61751556396484,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents mixed signals. On one hand, the 1M momentum is positi",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 134.852294921875,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the stock has shown pos",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 117.93952178955078,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents mixed signals. On one hand, the 1M momentum is negati",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 114.20111846923828,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA is neutral due to mixed signals. On one hand, the 1M momentum ",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 116.96991729736328,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the stock's high P/E ra",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 98.86768341064453,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the stock's 1M momentum",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 118.02949523925781,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA is neutral due to the lack of recent news and a quantitative m",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 128.44500732421875,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents mixed signals. On one hand, the 1M momentum is positi",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 125.55626678466797,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the stock's 1M momentum",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 107.16413116455078,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the 1M momentum is posi",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 119.0992202758789,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. The 1M momentum is slightly positive",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 117.82965087890625,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the stock's high P/E ra",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 123.99754333496094,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents mixed signals. The high P/E ratio of 45.898262 sugges",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 122.80794525146484,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the 1M momentum is posi",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 134.7638397216797,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the 1M momentum of +13.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 136.8831329345703,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the stock has shown str",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 140.3619384765625,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the stock's 1M momentum",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.5,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 132.71456909179688,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the stock's 1M momentum",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "ticker": "NVDA",
+        "price": 148.8290557861328,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the stock has shown pos",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "ticker": "NVDA",
+        "price": 146.70974731445312,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the stock's 1M momentum",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "ticker": "NVDA",
+        "price": 146.6197967529297,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the 1M momentum is posi",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "ticker": "NVDA",
+        "price": 138.2026824951172,
+        "decision": "HOLD - No trade executed",
+        "regime": "DISABLED",
+        "reasoning": "[LLM-ONLY] Market-Sense: NEUTRAL. The current market situation for NVDA presents a mixed picture. On one hand, the stock's 1M momentum",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      }
+    ],
+    "portfolio_values": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "value": 100000.0
+      }
+    ],
+    "final_portfolio": {
+      "cash": 100000.0,
+      "positions": {},
+      "total_value": 100000.0
+    }
+  }
+]

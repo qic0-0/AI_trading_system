@@ -1,0 +1,3761 @@
+[
+  {
+    "ticker": "NVDA",
+    "category": "increasing",
+    "system_mode": "full",
+    "model_type": "xgboost",
+    "success": true,
+    "metrics": {
+      "cumulative_return": 0.027202146224975587,
+      "cumulative_return_pct": "2.72%",
+      "sharpe_ratio": -0.109,
+      "max_drawdown": 0.0356,
+      "max_drawdown_pct": "3.56%",
+      "directional_accuracy": 0.375,
+      "directional_accuracy_pct": "37.50%",
+      "win_rate": 0.6667,
+      "win_rate_pct": "66.67%",
+      "num_trades": 23,
+      "initial_value": 100000.0,
+      "final_value": 102720.21,
+      "num_decisions": 37
+    },
+    "decisions": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 87.8991470336914,
+        "decision": "BUY signal but cannot execute (constraints or insufficient funds)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Market-Sense suggests BUY, Quant[xgboost] is neutral. Risk flags: High P/E ratio may indicate overvaluation, High volatility (54.2%) could lead to rapid price movements, Interest rate changes could impact technology sector valuations.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.6900962397018107,
+        "signal_direction": "BUY",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 91.38836669921875,
+        "decision": "BUY 664 shares of NVDA @ $91.39",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (BUY) and Market-Sense (BULLISH) agree. Risk flags: High P/E ratio may indicate overvaluation, Interest rate changes could impact technology sector, High volatility may lead to increased uncertainty.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.664267994608686,
+        "signal_direction": "BUY",
+        "signal_strength": 0.7585608412128247
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 90.30992126464844,
+        "decision": "BUY 67 shares of NVDA @ $90.31",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (BUY) and Market-Sense (BULLISH) agree. Risk flags: High P/E ratio may indicate overvaluation, High volatility increases risk of sharp price movements, Interest rate changes could negatively impact technology sector.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.6421810674770676,
+        "signal_direction": "BUY",
+        "signal_strength": 0.3114626282193585
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 87.963134765625,
+        "decision": "SELL 609 shares of NVDA @ $87.96",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High valuation (P/E ratio) may be unsustainable if interest rates rise, High volatility (30D) may lead to increased price swings, Negative momentum (1M) may continue if market sentiment remains bearish.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.550297048232488,
+        "signal_direction": "SELL",
+        "signal_strength": 0.833197679820267
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 88.14102935791016,
+        "decision": "SELL 26 shares of NVDA @ $88.14",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High P/E ratio, Interest rate sensitivity, High volatility (30D volatility of 49.5%), Uncertainty in quantitative model signal.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.55,
+        "signal_direction": "SELL",
+        "signal_strength": 0.21887747840080396
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 76.16114807128906,
+        "decision": "SELL 1 shares of NVDA @ $76.16",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Market-Sense suggests SELL, Quant[xgboost] is neutral. Risk flags: High P/E ratio may indicate overvaluation, Rising interest rates could negatively impact stock price, High volatility may lead to further price swings.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.6666209735211283,
+        "signal_direction": "SELL",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 87.69026947021484,
+        "decision": "SELL 78 shares of NVDA @ $87.69",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High P/E ratio, Recent price decline, Interest rate sensitivity.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.827488171462527
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 88.74372100830078,
+        "decision": "SELL 12 shares of NVDA @ $88.74",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High P/E ratio may indicate overvaluation, High 30D volatility suggests increased uncertainty, Interest rate sensitivity may impact technology sector.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.55,
+        "signal_direction": "SELL",
+        "signal_strength": 0.7348506174239544
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 89.83216857910156,
+        "decision": "SELL 1 shares of NVDA @ $89.83",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High P/E ratio indicating potential overvaluation, Interest rate sensitivity in the technology sector, Moderate volatility.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.5,
+        "signal_direction": "SELL",
+        "signal_strength": 0.06005229669746584
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 92.43183135986328,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High P/E ratio, Elevated 30D volatility, Interest rate sensitivity, Potential overvaluation.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.7,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.5268491730093956
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 106.41471099853516,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: Overvaluation risk due to high P/E ratio, Interest rate risk affecting technology sector, Mean reversion risk due to high recent momentum.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.7,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.46235656142234804
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 114.94135284423828,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High P/E ratio may indicate overvaluation, High 30D volatility suggests uncertainty, Interest rate changes could negatively impact technology sector, Mean reversion may lead to a price correction.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.7,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.5311649456620217
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 121.72789001464844,
+        "decision": "SELL 3 shares of NVDA @ $121.73",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Quant[xgboost] (SELL). Risk flags: High P/E ratio indicating potential overvaluation, Sensitivity to interest rates, Mean reversion risk due to high 1M momentum.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.7,
+        "signal_direction": "SELL",
+        "signal_strength": 0.869637159402654
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 130.92396545410156,
+        "decision": "SELL 1 shares of NVDA @ $130.92",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Quant[xgboost] (SELL). Risk flags: High P/E ratio may indicate overvaluation, High 30D volatility (51.1%) may indicate increased risk, Interest rate sensitivity may impact NVDA's stock price.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.7,
+        "signal_direction": "SELL",
+        "signal_strength": 0.954939038570433
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 126.03604888916016,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High P/E ratio, High volatility, Interest rate sensitivity.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.6843855770175902,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.4511477887630463
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 122.61752319335938,
+        "decision": "BUY 102 shares of NVDA @ $122.62",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (BUY) and Market-Sense (BULLISH) agree. Risk flags: High P/E ratio, High volatility, Interest rate sensitivity.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5667833652482182,
+        "signal_direction": "BUY",
+        "signal_strength": 0.16068941149928959
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 134.852294921875,
+        "decision": "SELL 82 shares of NVDA @ $134.85",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Quant[xgboost] (SELL). Risk flags: High P/E ratio may indicate overvaluation, Elevated volatility increases risk of significant price swings, Interest rate changes could negatively impact technology sector.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.607817566751935,
+        "signal_direction": "SELL",
+        "signal_strength": 0.8039296919846152
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 117.93951416015625,
+        "decision": "SELL 10 shares of NVDA @ $117.94",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High valuation (P/E ratio of 44.04) may be unsustainable if interest rates continue to rise, High volatility (52.4%) may lead to further price swings, Negative 1M momentum (-9.9%) may indicate a short-term downtrend.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5991755119004344,
+        "signal_direction": "SELL",
+        "signal_strength": 0.5097716190061033
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 114.20111083984375,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High P/E ratio may indicate overvaluation, High volatility may lead to further price swings, Interest rate changes may impact technology sector.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5939012144035426,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.29428510665893554
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 116.96992492675781,
+        "decision": "SELL 3 shares of NVDA @ $116.97",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High P/E ratio may indicate overvaluation, Interest rate sensitivity may impact technology sector, High volatility may lead to increased uncertainty.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5460586555617805,
+        "signal_direction": "SELL",
+        "signal_strength": 0.3947369892385773
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 98.86768341064453,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High P/E ratio may indicate overvaluation, Rising interest rates could negatively impact the stock price, High volatility may lead to further price fluctuations.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.7,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.30363142490386963
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 118.02947998046875,
+        "decision": "SELL 4 shares of NVDA @ $118.03",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High P/E ratio indicating potential overvaluation, High volatility indicating increased uncertainty, Interest rate sensitivity in the technology sector.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.55,
+        "signal_direction": "SELL",
+        "signal_strength": 0.5794448553114983
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 128.4450225830078,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High P/E ratio indicating potential overvaluation, High 30D volatility indicating increased uncertainty, Sensitivity to interest rates due to high growth expectations.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.6247265603496608,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.35226123332977294
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 125.55626678466797,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High P/E ratio indicating potential overvaluation, High 30D volatility suggesting increased uncertainty, Interest rate sensitivity in the technology sector.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5734064065039506,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.2813176274299622
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 107.16413116455078,
+        "decision": "BUY 51 shares of NVDA @ $107.16",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Market-Sense (BUY). Risk flags: High P/E ratio indicating potential overvaluation, High 30D volatility suggesting increased uncertainty, Interest rate sensitivity in the technology sector.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.583914657122562,
+        "signal_direction": "BUY",
+        "signal_strength": 0.07074993671361555
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 119.0992202758789,
+        "decision": "BUY 100 shares of NVDA @ $119.10",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests BUY, Market-Sense is neutral. Risk flags: High P/E ratio may indicate overvaluation, High volatility may lead to price swings, Interest rate sensitivity in the technology sector.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "BUY",
+        "signal_strength": 0.16357305741548486
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 117.82965087890625,
+        "decision": "SELL 1 shares of NVDA @ $117.83",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Market-Sense suggests SELL, Quant[xgboost] is neutral. Risk flags: High P/E ratio may indicate overvaluation, Interest rate sensitivity in the technology sector, High volatility (57.6% in 30D) may lead to sudden price movements.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5826452554612722,
+        "signal_direction": "SELL",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 123.9975357055664,
+        "decision": "SELL 66 shares of NVDA @ $124.00",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High P/E ratio may indicate overvaluation, Interest rate sensitivity could negatively impact valuation, High 30D volatility of 57.0% may indicate increased uncertainty.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.43697071807452803
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 122.80794525146484,
+        "decision": "BUY 102 shares of NVDA @ $122.81",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (BUY) and Market-Sense (BULLISH) agree. Risk flags: High valuation (P/E ratio of 44.044556), High volatility (30D volatility of 56.7%), Interest rate sensitivity, Potential for mean reversion (14.6% 1M momentum may not be sustainable).",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.6459799460594977,
+        "signal_direction": "BUY",
+        "signal_strength": 0.18219949884889752
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 134.76385498046875,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High P/E ratio may indicate overvaluation, Elevated 30D volatility suggests increased uncertainty, Rising interest rates could negatively impact valuation, Mean reversion may lead to a price correction.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.6315259215661078,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.39039620161056526
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 136.88311767578125,
+        "decision": "BUY 53 shares of NVDA @ $136.88",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Market-Sense (BUY). Risk flags: high P/E ratio, high volatility, interest rate sensitivity, mean reversion risk.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.6617034986928398,
+        "signal_direction": "BUY",
+        "signal_strength": 0.13153854888725183
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 140.3619384765625,
+        "decision": "BUY 55 shares of NVDA @ $140.36",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Market-Sense (BUY). Risk flags: High valuation (P/E ratio of 44.044556), High 30D volatility (55.5%) indicating market uncertainty, Interest rate sensitivity in the technology sector.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.6319736128454485,
+        "signal_direction": "BUY",
+        "signal_strength": 0.15913792482047157
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 132.71456909179688,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High P/E ratio may indicate overvaluation, High 30D volatility suggests increased uncertainty, Interest rate sensitivity may impact technology sector.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5806676133213284,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.40135771036148066
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "ticker": "NVDA",
+        "price": 148.82904052734375,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High P/E ratio may indicate overvaluation, High 30D volatility suggests potential for price swings, Interest rate sensitivity in the technology sector.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.6043691244133189,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.2609381675720215
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "ticker": "NVDA",
+        "price": 146.7097625732422,
+        "decision": "BUY signal but cannot execute (constraints or insufficient funds)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Market-Sense suggests BUY, Quant[xgboost] is neutral. Risk flags: High P/E ratio may indicate overvaluation, Interest rate sensitivity could negatively impact valuation, High volatility may lead to rapid price swings.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5717885818522641,
+        "signal_direction": "BUY",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "ticker": "NVDA",
+        "price": 146.6197967529297,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High P/E ratio may indicate overvaluation, High 30D volatility suggests increased uncertainty, Interest rate sensitivity in the technology sector.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5445837265022677,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.27511560916900635
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "ticker": "NVDA",
+        "price": 138.2026824951172,
+        "decision": "SELL 187 shares of NVDA @ $138.20",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Quant[xgboost] (SELL). Risk flags: High valuation, Interest rate sensitivity, High volatility.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5413527575825097,
+        "signal_direction": "SELL",
+        "signal_strength": 0.6308907669937214
+      }
+    ],
+    "portfolio_values": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "value": 99283.91223144531
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "value": 97568.41130065918
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "value": 97590.11444091797
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "value": 96440.04583740234
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "value": 97535.3123703003
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "value": 97553.22104644775
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "value": 97558.66328430176
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "value": 97569.0619354248
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "value": 97624.99345397949
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "value": 97659.1000213623
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "value": 97686.24617004395
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "value": 97695.4422454834
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "value": 97695.4422454834
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "value": 97695.4422454834
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "value": 98943.38896179199
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "value": 98605.13334655762
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "value": 98567.74931335449
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "value": 98595.43745422363
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "value": 98468.72176361084
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "value": 98602.85433959961
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "value": 98634.10096740723
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "value": 98625.4347000122
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "value": 98570.25829315186
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "value": 99214.75310516357
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "value": 99019.23941802979
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "value": 99962.92579650879
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "value": 99859.43142700195
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "value": 102119.09836578369
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "value": 102519.63901519775
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "value": 103361.51364898682
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "value": 101090.24494171143
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "value": 105876.24295806885
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "value": 105246.81740570068
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "value": 105220.09755706787
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "value": 102720.21462249756
+      }
+    ],
+    "final_portfolio": {
+      "cash": 87517.91954803467,
+      "positions": {
+        "NVDA": {
+          "shares": 110,
+          "cost_basis": 126.34628687977056,
+          "current_price": 138.2026824951172,
+          "market_value": 15202.29507446289
+        }
+      },
+      "total_value": 102720.21462249756
+    }
+  },
+  {
+    "ticker": "NVDA",
+    "category": "increasing",
+    "system_mode": "quant_only",
+    "model_type": "xgboost",
+    "success": true,
+    "metrics": {
+      "cumulative_return": 0.08355857604980468,
+      "cumulative_return_pct": "8.36%",
+      "sharpe_ratio": 0.479,
+      "max_drawdown": 0.0508,
+      "max_drawdown_pct": "5.08%",
+      "directional_accuracy": 0.303,
+      "directional_accuracy_pct": "30.30%",
+      "win_rate": 0.6667,
+      "win_rate_pct": "66.67%",
+      "num_trades": 13,
+      "initial_value": 100000.0,
+      "final_value": 108355.86,
+      "num_decisions": 37
+    },
+    "decisions": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 87.8991470336914,
+        "decision": "SELL signal but no position in NVDA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 91.38836669921875,
+        "decision": "BUY 787 shares of NVDA @ $91.39",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.9000000715255752
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 90.30992126464844,
+        "decision": "BUY 23 shares of NVDA @ $90.31",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.260457915000103
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 87.963134765625,
+        "decision": "SELL 810 shares of NVDA @ $87.96",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 88.14102935791016,
+        "decision": "SELL signal but no position in NVDA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.39085264000143566
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 76.16114807128906,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.010222958756003209
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 87.69026947021484,
+        "decision": "SELL signal but no position in NVDA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 88.74372100830078,
+        "decision": "SELL signal but no position in NVDA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 89.83216857910156,
+        "decision": "SELL signal but no position in NVDA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.10723624410261758
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 92.43183135986328,
+        "decision": "SELL signal but no position in NVDA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 106.41471099853516,
+        "decision": "SELL signal but no position in NVDA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 114.94135284423828,
+        "decision": "SELL signal but no position in NVDA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 121.72789001464844,
+        "decision": "SELL signal but no position in NVDA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 130.92396545410156,
+        "decision": "SELL signal but no position in NVDA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 126.03604888916016,
+        "decision": "SELL signal but no position in NVDA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 122.61752319335938,
+        "decision": "BUY 68 shares of NVDA @ $122.62",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.10766769275338817
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 134.852294921875,
+        "decision": "SELL 68 shares of NVDA @ $134.85",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 117.93951416015625,
+        "decision": "SELL signal but no position in NVDA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.5633546905323783
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 114.20111083984375,
+        "decision": "BUY 413 shares of NVDA @ $114.20",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.6014147500087574
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 116.96992492675781,
+        "decision": "SELL 175 shares of NVDA @ $116.97",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.42438529518627816
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 98.86768341064453,
+        "decision": "BUY 339 shares of NVDA @ $98.87",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.6402225152024599
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 118.02947998046875,
+        "decision": "SELL 577 shares of NVDA @ $118.03",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 128.4450225830078,
+        "decision": "SELL signal but no position in NVDA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.8617220590764774
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 125.55626678466797,
+        "decision": "SELL signal but no position in NVDA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.549580607658493
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 107.16413116455078,
+        "decision": "SELL signal but no position in NVDA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.03670230724211798
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 119.0992202758789,
+        "decision": "BUY 207 shares of NVDA @ $119.10",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.2920947453847944
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 117.82965087890625,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.013506865360604083
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 123.9975357055664,
+        "decision": "SELL 161 shares of NVDA @ $124.00",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.7803048537045143
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 122.80794525146484,
+        "decision": "BUY 73 shares of NVDA @ $122.81",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.11266500462202346
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 134.76385498046875,
+        "decision": "SELL 119 shares of NVDA @ $134.76",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 136.88311767578125,
+        "decision": "SELL signal but no position in NVDA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.0987914226959763
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 140.3619384765625,
+        "decision": "SELL signal but no position in NVDA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.1585219839603269
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "ticker": "NVDA",
+        "price": 132.71456909179688,
+        "decision": "SELL signal but no position in NVDA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "ticker": "NVDA",
+        "price": 148.82904052734375,
+        "decision": "SELL signal but no position in NVDA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.4728383839989192
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "ticker": "NVDA",
+        "price": 146.7097625732422,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.006121934686156295
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "ticker": "NVDA",
+        "price": 146.6197967529297,
+        "decision": "SELL signal but no position in NVDA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.5256152667252323
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "ticker": "NVDA",
+        "price": 138.2026824951172,
+        "decision": "SELL signal but no position in NVDA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      }
+    ],
+    "portfolio_values": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "value": 99151.26344299316
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "value": 97250.36637878418
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "value": 97250.36637878418
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "value": 97250.36637878418
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "value": 97250.36637878418
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "value": 97250.36637878418
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "value": 97250.36637878418
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "value": 97250.36637878418
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "value": 97250.36637878418
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "value": 97250.36637878418
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "value": 97250.36637878418
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "value": 97250.36637878418
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "value": 97250.36637878418
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "value": 97250.36637878418
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "value": 98082.33085632324
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "value": 98082.33085632324
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "value": 98082.33085632324
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "value": 99225.85107421875
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "value": 94917.51759338379
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "value": 105973.87421417236
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "value": 105973.87421417236
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "value": 105973.87421417236
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "value": 105973.87421417236
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "value": 105973.87421417236
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "value": 105711.07334899902
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "value": 106987.82550811768
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "value": 106933.104347229
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "value": 108355.85760498047
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "value": 108355.85760498047
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "value": 108355.85760498047
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "value": 108355.85760498047
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "value": 108355.85760498047
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "value": 108355.85760498047
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "value": 108355.85760498047
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "value": 108355.85760498047
+      }
+    ],
+    "final_portfolio": {
+      "cash": 108355.85760498047,
+      "positions": {},
+      "total_value": 108355.85760498047
+    }
+  },
+  {
+    "ticker": "MRNA",
+    "category": "decreasing",
+    "system_mode": "full",
+    "model_type": "xgboost",
+    "success": true,
+    "metrics": {
+      "cumulative_return": 0.0309393106842041,
+      "cumulative_return_pct": "3.09%",
+      "sharpe_ratio": -0.08,
+      "max_drawdown": 0.0343,
+      "max_drawdown_pct": "3.43%",
+      "directional_accuracy": 0.6296,
+      "directional_accuracy_pct": "62.96%",
+      "win_rate": 0.6667,
+      "win_rate_pct": "66.67%",
+      "num_trades": 9,
+      "initial_value": 100000.0,
+      "final_value": 103093.93,
+      "num_decisions": 37
+    },
+    "decisions": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 103.45999908447266,
+        "decision": "BUY signal but cannot execute (constraints or insufficient funds)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Market-Sense suggests BUY, Quant[xgboost] is neutral. Risk flags: High volatility, Lack of valuation information, Potential for mean reversion.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.7,
+        "signal_direction": "BUY",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 104.08999633789062,
+        "decision": "BUY 114 shares of MRNA @ $104.09",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (BUY) and Market-Sense (BULLISH) agree. Risk flags: High volatility, Lack of clear valuation metrics (P/E ratio), Uncertainty in quantitative model signal.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5467618039251791,
+        "signal_direction": "BUY",
+        "signal_strength": 0.14935240593015892
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 106.55999755859375,
+        "decision": "BUY 183 shares of MRNA @ $106.56",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (BUY) and Market-Sense (BULLISH) agree. Risk flags: High volatility, Lack of clear valuation, Uncertainty in quantitative model signal.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.6552471815532088,
+        "signal_direction": "BUY",
+        "signal_strength": 0.28743632606528446
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 102.87999725341797,
+        "decision": "BUY 33 shares of MRNA @ $102.88",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Market-Sense (BUY). Risk flags: High volatility, Lack of valuation information, Uncertainty around future earnings surprises.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5341776616581446,
+        "signal_direction": "BUY",
+        "signal_strength": 0.07075968738286391
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 105.13999938964844,
+        "decision": "SELL 14 shares of MRNA @ $105.14",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High volatility, Lack of clear valuation, Uncertainty due to absence of recent news.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.4,
+        "signal_direction": "SELL",
+        "signal_strength": 0.044767296057352725
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 101.41000366210938,
+        "decision": "SELL 55 shares of MRNA @ $101.41",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High volatility, Lack of valuation information, Potential for earnings surprise.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.17500645518140842
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 107.97000122070312,
+        "decision": "SELL 154 shares of MRNA @ $107.97",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High volatility, Lack of valuation information, Uncertainty in quantitative model signal.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.55,
+        "signal_direction": "SELL",
+        "signal_strength": 0.590045640647078
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 125.0,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High volatility, Lack of valuation information (P/E ratio), Potential for mean reversion.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.7,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.47875444293022157
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 117.30999755859375,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High volatility, Lack of clear valuation, Potential mean reversion.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.6157504112573118,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.3793623805046082
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 132.89999389648438,
+        "decision": "BUY signal but cannot execute (constraints or insufficient funds)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Market-Sense suggests BUY, Quant[xgboost] is neutral. Risk flags: Overbought condition, High volatility, Lack of valuation information.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.7,
+        "signal_direction": "BUY",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 166.61000061035156,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High volatility, Lack of valuation information, Potential for mean reversion.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.7,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.48887190520763396
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 147.82000732421875,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High volatility, Lack of clear valuation metrics (P/E ratio), Uncertainty due to absence of recent news.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.6825600585937499,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.48337883949279786
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 148.58999633789062,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High volatility, Mean reversion risk, Lack of valuation information.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.7,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.5338866010308265
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 137.89999389648438,
+        "decision": "SELL 67 shares of MRNA @ $137.90",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Quant[xgboost] (SELL). Risk flags: High volatility, Lack of fundamental value assessment, Uncertainty in quantitative model signal.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5376222741130785,
+        "signal_direction": "SELL",
+        "signal_strength": 0.6352812188144041
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 137.60000610351562,
+        "decision": "SELL 12 shares of MRNA @ $137.60",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High volatility, Lack of valuation information, Negative short-term momentum.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.6741191669201251,
+        "signal_direction": "SELL",
+        "signal_strength": 0.3048801952552988
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 117.06999969482422,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: high volatility, unclear valuation, recent price decline.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.7,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.3411276340484619
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 117.44000244140625,
+        "decision": "SELL 28 shares of MRNA @ $117.44",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: high volatility, potential for mean reversion, unclear valuation.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.7,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 124.05500030517578,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Market-Sense suggests SELL, Quant[xgboost] is neutral. Risk flags: High volatility, Lack of clear direction, Uncertainty around valuation.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.6003987977091677,
+        "signal_direction": "SELL",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 118.19000244140625,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High volatility, Lack of valuation information (P/E ratio), Uncertainty in quantitative model signal.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.6410610668687569,
+        "signal_direction": "SELL",
+        "signal_strength": 0.3811923905231304
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 119.22000122070312,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High volatility, Lack of clear valuation, Uncertainty surrounding earnings surprises.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.5,
+        "signal_direction": "SELL",
+        "signal_strength": 0.28249811178126194
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 81.55000305175781,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High volatility, Lack of valuation information, Potential for mean reversion.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.7,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 82.25,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High volatility, Lack of clear valuation metrics (P/E ratio), Recent price decline (-33.7% in 1M).",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.7,
+        "signal_direction": "SELL",
+        "signal_strength": 0.9550379067673287
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 86.6500015258789,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: high volatility, unclear valuation, potential for further decline.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.7,
+        "signal_direction": "SELL",
+        "signal_strength": 0.38448124539691336
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 78.36000061035156,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Market-Sense suggests SELL, Quant[xgboost] is neutral. Risk flags: High volatility, Lack of clear valuation, Potential for further decline without a clear catalyst for reversal.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.7,
+        "signal_direction": "SELL",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 73.44000244140625,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: high volatility, unclear valuation, recent price decline.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5994481950565268,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.43946335315704343
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 69.68000030517578,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High volatility, Recent price decline, Lack of earnings data (P/E ratio), Uncertainty due to absence of quantitative model signal.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.6528267440100209,
+        "signal_direction": "SELL",
+        "signal_strength": 0.4797738355128455
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 68.0199966430664,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High volatility, Lack of valuation information, Potential for further price decline.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.7,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 63.93000030517578,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High volatility, Unclear valuation, Lack of recent news.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.6841500790298557,
+        "signal_direction": "SELL",
+        "signal_strength": 0.3862467100264208
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 61.06999969482422,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: high volatility, unclear valuation, potential for further decline.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.6684368509716674,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.4014579534530639
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 56.83000183105469,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Market-Sense suggests SELL, Quant[xgboost] is neutral. Risk flags: high volatility, uncertainty around valuation, potential for further price swings.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.6844144434248317,
+        "signal_direction": "SELL",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 54.81999969482422,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High volatility may lead to further price swings, Lack of clear catalyst for a reversal, Uncertainty around valuation due to missing P/E ratio.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.6940605351321746,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.3076623916625977
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 52.79999923706055,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High volatility, Lack of recent news, Unclear valuation due to missing P/E ratio, Potential for further price decline.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.6740966841073853,
+        "signal_direction": "SELL",
+        "signal_strength": 0.6839639277420791
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 54.36000061035156,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High volatility, Lack of valuation information, Potential for further price decline.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.6098739007369168,
+        "signal_direction": "SELL",
+        "signal_strength": 0.8755193300941313
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "ticker": "MRNA",
+        "price": 50.279998779296875,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: high volatility, uncertainty due to lack of P/E ratio, potential for further decline if oversold condition is not reversed.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.6152560767326699,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "ticker": "MRNA",
+        "price": 39.77000045776367,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High volatility, Lack of earnings information, Uncertainty in market direction.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.7,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "ticker": "MRNA",
+        "price": 38.25,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: high volatility, oversold condition may not necessarily lead to a reversal, lack of valuation information.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.7,
+        "signal_direction": "SELL",
+        "signal_strength": 0.09672899298442773
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "ticker": "MRNA",
+        "price": 43.060001373291016,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Market-Sense suggests SELL, Quant[xgboost] is neutral. Risk flags: High volatility, Lack of valuation information, Potential for earnings surprises.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.7,
+        "signal_direction": "SELL",
+        "signal_strength": 0.0
+      }
+    ],
+    "portfolio_values": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "value": 100281.58013916016
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "value": 99188.62004852295
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "value": 99934.420753479
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "value": 98755.74210357666
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "value": 100467.90146636963
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "value": 102290.1113357544
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "value": 101467.28107452393
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "value": 103135.41068267822
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "value": 106742.38140106201
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "value": 104731.8521194458
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "value": 104814.24094390869
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "value": 103670.41068267822
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "value": 103658.41117095947
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "value": 103083.57099151611
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "value": 103093.93106842041
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "value": 103093.93106842041
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "value": 103093.93106842041
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "value": 103093.93106842041
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "value": 103093.93106842041
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "value": 103093.93106842041
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "value": 103093.93106842041
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "value": 103093.93106842041
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "value": 103093.93106842041
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "value": 103093.93106842041
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "value": 103093.93106842041
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "value": 103093.93106842041
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "value": 103093.93106842041
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "value": 103093.93106842041
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "value": 103093.93106842041
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "value": 103093.93106842041
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "value": 103093.93106842041
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "value": 103093.93106842041
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "value": 103093.93106842041
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "value": 103093.93106842041
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "value": 103093.93106842041
+      }
+    ],
+    "final_portfolio": {
+      "cash": 103093.93106842041,
+      "positions": {},
+      "total_value": 103093.93106842041
+    }
+  },
+  {
+    "ticker": "MRNA",
+    "category": "decreasing",
+    "system_mode": "quant_only",
+    "model_type": "xgboost",
+    "success": true,
+    "metrics": {
+      "cumulative_return": -0.1322762119293213,
+      "cumulative_return_pct": "-13.23%",
+      "sharpe_ratio": -2.12,
+      "max_drawdown": 0.157,
+      "max_drawdown_pct": "15.70%",
+      "directional_accuracy": 0.5484,
+      "directional_accuracy_pct": "54.84%",
+      "win_rate": 0.2,
+      "win_rate_pct": "20.00%",
+      "num_trades": 14,
+      "initial_value": 100000.0,
+      "final_value": 86772.38,
+      "num_decisions": 37
+    },
+    "decisions": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 103.45999908447266,
+        "decision": "BUY 773 shares of MRNA @ $103.46",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 104.08999633789062,
+        "decision": "BUY signal but cannot execute (constraints or insufficient funds)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.10000004768372152
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 106.55999755859375,
+        "decision": "BUY signal but cannot execute (constraints or insufficient funds)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.22603089605443216
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 102.87999725341797,
+        "decision": "SELL 33 shares of MRNA @ $102.88",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.0438672464337575
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 105.13999938964844,
+        "decision": "SELL 59 shares of MRNA @ $105.14",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.07994160010241559
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 101.41000366210938,
+        "decision": "SELL 212 shares of MRNA @ $101.41",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.3125115271096579
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 107.97000122070312,
+        "decision": "SELL 469 shares of MRNA @ $107.97",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 125.0,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 117.30999755859375,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.9994153870980772
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 132.89999389648438,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.020096509120435258
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 166.61000061035156,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 147.82000732421875,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 148.58999633789062,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 137.89999389648438,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 137.60000610351562,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.24001438174710898
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 117.06999969482422,
+        "decision": "BUY 561 shares of MRNA @ $117.07",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.8081115466076483
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 117.44000244140625,
+        "decision": "SELL 561 shares of MRNA @ $117.44",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 124.05500030517578,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.003632796534134286
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 118.19000244140625,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.3517909719086276
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 119.22000122070312,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.5044609138951106
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 81.55000305175781,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 82.25,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 86.6500015258789,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.32765734225109533
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 78.36000061035156,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.020692828578638967
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 73.44000244140625,
+        "decision": "BUY 1110 shares of MRNA @ $73.44",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 69.68000030517578,
+        "decision": "SELL 535 shares of MRNA @ $69.68",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.48246489227815387
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 68.0199966430664,
+        "decision": "SELL 575 shares of MRNA @ $68.02",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 63.93000030517578,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.3373367787231985
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 61.06999969482422,
+        "decision": "BUY 1268 shares of MRNA @ $61.07",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 56.83000183105469,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0001617458407565664
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 54.81999969482422,
+        "decision": "BUY 19 shares of MRNA @ $54.82",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.6573343558579836
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 52.79999923706055,
+        "decision": "SELL 994 shares of MRNA @ $52.80",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.7728869610147648
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "ticker": "MRNA",
+        "price": 54.36000061035156,
+        "decision": "SELL 293 shares of MRNA @ $54.36",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "ticker": "MRNA",
+        "price": 50.279998779296875,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "ticker": "MRNA",
+        "price": 39.77000045776367,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "ticker": "MRNA",
+        "price": 38.25,
+        "decision": "SELL signal but no position in MRNA (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.03493930529985256
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "ticker": "MRNA",
+        "price": 43.060001373291016,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0075240151603850345
+      }
+    ],
+    "portfolio_values": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "value": 100486.98787689209
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "value": 102396.2988204956
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "value": 99551.65858459473
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "value": 101224.06016540527
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "value": 98683.93307495117
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "value": 101760.57192993164
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "value": 101760.57192993164
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "value": 101760.57192993164
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "value": 101760.57192993164
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "value": 101760.57192993164
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "value": 101760.57192993164
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "value": 101760.57192993164
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "value": 101760.57192993164
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "value": 101760.57192993164
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "value": 101760.57192993164
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "value": 101968.14347076416
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "value": 101968.14347076416
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "value": 101968.14347076416
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "value": 101968.14347076416
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "value": 101968.14347076416
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "value": 101968.14347076416
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "value": 101968.14347076416
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "value": 101968.14347076416
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "value": 101968.14347076416
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "value": 97794.54109954834
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "value": 96840.03899383545
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "value": 96840.03899383545
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "value": 96840.03899383545
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "value": 91463.72170257568
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "value": 88915.03899383545
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "value": 86315.2984046936
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "value": 86772.37880706787
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "value": 86772.37880706787
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "value": 86772.37880706787
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "value": 86772.37880706787
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "value": 86772.37880706787
+      }
+    ],
+    "final_portfolio": {
+      "cash": 86772.37880706787,
+      "positions": {},
+      "total_value": 86772.37880706787
+    }
+  },
+  {
+    "ticker": "KO",
+    "category": "stable",
+    "system_mode": "full",
+    "model_type": "xgboost",
+    "success": true,
+    "metrics": {
+      "cumulative_return": 0.011960465774536133,
+      "cumulative_return_pct": "1.20%",
+      "sharpe_ratio": -1.821,
+      "max_drawdown": 0.0059,
+      "max_drawdown_pct": "0.59%",
+      "directional_accuracy": 0.75,
+      "directional_accuracy_pct": "75.00%",
+      "win_rate": 0.5,
+      "win_rate_pct": "50.00%",
+      "num_trades": 26,
+      "initial_value": 100000.0,
+      "final_value": 101196.05,
+      "num_decisions": 37
+    },
+    "decisions": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 57.48070526123047,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (HOLD) and Market-Sense (NEUTRAL) agree. Risk flags: High P/E ratio may indicate overvaluation, Moderate volatility may lead to price fluctuations.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 57.45220184326172,
+        "decision": "BUY 77 shares of KO @ $57.45",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests BUY, Market-Sense is neutral. Risk flags: High P/E ratio may indicate overvaluation, Moderate volatility may lead to price fluctuations, Lack of recent news may indicate uncertainty.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "BUY",
+        "signal_strength": 0.05600002670288404
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 58.126766204833984,
+        "decision": "BUY 22 shares of KO @ $58.13",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests BUY, Market-Sense is neutral. Risk flags: High P/E ratio may indicate overvaluation, Moderate volatility may lead to price fluctuations.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "BUY",
+        "signal_strength": 0.017114782693781194
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 56.54010772705078,
+        "decision": "SELL 32 shares of KO @ $56.54",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High P/E ratio may indicate overvaluation, Lack of recent news may indicate uncertainty, Quantitative model signal not available.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.55,
+        "signal_direction": "SELL",
+        "signal_strength": 0.3233754856262173
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 55.371490478515625,
+        "decision": "SELL 34 shares of KO @ $55.37",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High P/E ratio may indicate overvaluation, Interest rate changes could impact KO's valuation, Lack of recent news may indicate uncertainty.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5366943093883273,
+        "signal_direction": "SELL",
+        "signal_strength": 0.5183640081322373
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 57.16716766357422,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (HOLD) and Market-Sense (NEUTRAL) agree. Risk flags: High P/E ratio, Potential overvaluation, Mean reversion.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 58.65882873535156,
+        "decision": "SELL 11 shares of KO @ $58.66",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: Overvaluation risk: High P/E ratio may indicate growth expectations or overvaluation, Interest rate sensitivity: As a consumer staples company, KO may be less sensitive to interest rates, but still vulnerable to changes in the overall market environment.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.55,
+        "signal_direction": "SELL",
+        "signal_strength": 0.33407332735135853
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 59.06735610961914,
+        "decision": "SELL 13 shares of KO @ $59.07",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Quant[xgboost] (SELL). Risk flags: High P/E ratio may indicate overvaluation, Potential for mean reversion, Uncertainty in the market due to moderate volatility.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5446983298080847,
+        "signal_direction": "SELL",
+        "signal_strength": 0.5964655497521146
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 60.102962493896484,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High P/E ratio may indicate overvaluation, Lack of clear direction from quantitative model, Moderate volatility may indicate uncertainty.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5854496054646874,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.3583549439907074
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 59.88444137573242,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: Overvaluation risk: High P/E ratio may indicate that investors are overpaying for KO's earnings., Interest rate risk: As a consumer staples company, KO may not be directly impacted by interest rates, but rising rates could still affect the overall market sentiment..",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5475320681995164,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.25612256526947025
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 58.905845642089844,
+        "decision": "SELL 5 shares of KO @ $58.91",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High P/E ratio, Potential overvaluation, Lack of recent news.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.6413626063287436
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 59.7894287109375,
+        "decision": "SELL 1 shares of KO @ $59.79",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High P/E ratio may indicate overvaluation, Potential for mean reversion.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.05656671990371862
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 60.4164924621582,
+        "decision": "BUY 48 shares of KO @ $60.42",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests BUY, Market-Sense is neutral. Risk flags: High P/E ratio may indicate overvaluation, Interest rate changes could impact KO's valuation, Mean reversion could lead to a price correction.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "BUY",
+        "signal_strength": 0.03672113630964305
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 59.95654296875,
+        "decision": "BUY 19 shares of KO @ $59.96",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests BUY, Market-Sense is neutral. Risk flags: Overvaluation risk, Lack of momentum, Interest rate sensitivity.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "BUY",
+        "signal_strength": 0.01551719606485449
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 61.12465286254883,
+        "decision": "BUY 100 shares of KO @ $61.12",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Market-Sense (BUY). Risk flags: High P/E ratio may indicate overvaluation, Interest rate changes could impact growth expectations.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5376670124377874,
+        "signal_direction": "BUY",
+        "signal_strength": 0.08084238784929297
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 60.46400451660156,
+        "decision": "SELL 7 shares of KO @ $60.46",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: overvaluation risk, interest rate risk.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.4,
+        "signal_direction": "SELL",
+        "signal_strength": 0.043927231273093524
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 60.15761184692383,
+        "decision": "SELL 126 shares of KO @ $60.16",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High P/E ratio may indicate overvaluation, Moderate volatility may lead to price fluctuations, Lack of clear quantitative model signal.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.7742605865530892
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 62.43638610839844,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High P/E ratio may indicate overvaluation, Potential for mean reversion.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5413606758638663,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.33081582784652713
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 63.0108642578125,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High P/E ratio may indicate overvaluation, Moderate volatility may lead to price fluctuations.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5308584393845999,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.20241018533706667
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 63.901302337646484,
+        "decision": "BUY signal but cannot execute (constraints or insufficient funds)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Market-Sense suggests BUY, Quant[xgboost] is neutral. Risk flags: High P/E ratio may indicate overvaluation, High volatility may lead to sudden price movements.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5568486630769078,
+        "signal_direction": "BUY",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 65.54814910888672,
+        "decision": "BUY 203 shares of KO @ $65.55",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Market-Sense (BUY). Risk flags: Overvaluation risk, Interest rate risk, Mean reversion risk.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5896069025426005,
+        "signal_direction": "BUY",
+        "signal_strength": 0.17213829323667393
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 65.66304779052734,
+        "decision": "BUY 109 shares of KO @ $65.66",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Market-Sense (BUY). Risk flags: High P/E ratio may indicate overvaluation, Moderate volatility.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5516791871414044,
+        "signal_direction": "BUY",
+        "signal_strength": 0.11178937515781606
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 66.61093139648438,
+        "decision": "BUY 322 shares of KO @ $66.61",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (BUY) and Market-Sense (BULLISH) agree. Risk flags: Overvaluation risk due to high P/E ratio, Interest rate risk, although KO is not in the technology sector, rising rates can still impact consumer spending and the overall economy.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5571340701492682,
+        "signal_direction": "BUY",
+        "signal_strength": 0.37606450787194334
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 68.69821166992188,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: overvaluation, interest rate sensitivity.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5750674736944972,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.39981182813644417
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 68.14288330078125,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High P/E ratio may indicate overvaluation, Mean reversion may lead to price correction, Interest rate changes may impact consumer staples sector.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5395851633824813,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.41309165954589844
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 68.20033264160156,
+        "decision": "SELL 370 shares of KO @ $68.20",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Quant[xgboost] (SELL). Risk flags: High P/E ratio may indicate overvaluation, Interest rate changes could impact KO's valuation.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5386409850966476,
+        "signal_direction": "SELL",
+        "signal_strength": 0.5526234545313723
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 68.07982635498047,
+        "decision": "SELL 119 shares of KO @ $68.08",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High P/E ratio may indicate overvaluation, Lack of recent news or clear quantitative signal.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.55,
+        "signal_direction": "SELL",
+        "signal_strength": 0.39613093220796985
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 68.8317642211914,
+        "decision": "BUY 102 shares of KO @ $68.83",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests BUY, Market-Sense is neutral. Risk flags: Overvaluation risk: High P/E ratio may indicate that investors have high growth expectations, which may not be met., Interest rate risk: As a consumer staples company, KO may not be directly affected by interest rates, but rising rates can still impact the overall market sentiment..",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "BUY",
+        "signal_strength": 0.1031642499843656
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 67.98342895507812,
+        "decision": "SELL 284 shares of KO @ $67.98",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High P/E ratio may indicate overvaluation, Potential for mean reversion if price deviates further from historical range.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 66.75910949707031,
+        "decision": "SELL signal but no position in KO (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High P/E ratio may indicate overvaluation, Potential for mean reversion if the stock is overbought, Interest rate changes could impact the stock's valuation.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.0731493335522572
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 67.3857192993164,
+        "decision": "BUY 22 shares of KO @ $67.39",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests BUY, Market-Sense is neutral. Risk flags: High P/E ratio may indicate overvaluation, Recent price decline may be a sign of weakening demand, Moderate volatility may indicate increased uncertainty.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "BUY",
+        "signal_strength": 0.019038777973037213
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 64.8792495727539,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High P/E ratio may indicate overvaluation, Negative 1M momentum may indicate downward trend.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5574228293166519,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.23832850456237792
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 62.96082305908203,
+        "decision": "SELL 10 shares of KO @ $62.96",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High P/E ratio may indicate overvaluation, Negative 1M momentum could lead to further correction.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5738798553293761,
+        "signal_direction": "SELL",
+        "signal_strength": 0.48366933565905657
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "ticker": "KO",
+        "price": 61.370174407958984,
+        "decision": "SELL 1 shares of KO @ $61.37",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High P/E ratio may indicate overvaluation, Recent negative momentum.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.580722093654467,
+        "signal_direction": "SELL",
+        "signal_strength": 0.14258991347196037
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "ticker": "KO",
+        "price": 60.30010223388672,
+        "decision": "SELL 7 shares of KO @ $60.30",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High P/E ratio may indicate overvaluation, Recent price correction may continue.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.6051501288270965,
+        "signal_direction": "SELL",
+        "signal_strength": 0.6450682580480729
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "ticker": "KO",
+        "price": 61.466575622558594,
+        "decision": "SELL 2 shares of KO @ $61.47",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High P/E ratio may indicate overvaluation, Lack of clear quantitative model signal, Negative 1M momentum.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5526003918459079,
+        "signal_direction": "SELL",
+        "signal_strength": 0.6823776412239284
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "ticker": "KO",
+        "price": 62.24361038208008,
+        "decision": "BUY 452 shares of KO @ $62.24",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests BUY, Market-Sense is neutral. Risk flags: High P/E ratio, Potential interest rate risk.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "BUY",
+        "signal_strength": 0.3482892726304016
+      }
+    ],
+    "portfolio_values": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "value": 100051.94145584106
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "value": 99894.86226654053
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "value": 99816.56491088867
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "value": 99875.8222579956
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "value": 99925.04707336426
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "value": 99934.03467559814
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "value": 99943.35513305664
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "value": 99941.38844299316
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "value": 99932.58108139038
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "value": 99936.11541366577
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "value": 99937.99660491943
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "value": 99914.53918075562
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "value": 99996.30687332153
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "value": 99883.9966545105
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "value": 99834.05464935303
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "value": 99918.36929702759
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "value": 99939.62498855591
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "value": 99972.57119750977
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "value": 100033.50452804565
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "value": 100061.0802116394
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "value": 100391.89159011841
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "value": 101792.45665359497
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "value": 101419.83131790161
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "value": 101458.37982559204
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "value": 101422.10743331909
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "value": 101558.96012496948
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "value": 101318.03290939331
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "value": 101318.03290939331
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "value": 101318.03290939331
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "value": 101262.89057540894
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "value": 101220.68519210815
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "value": 101201.59740829468
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "value": 101189.82661437988
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "value": 101194.49250793457
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "value": 101196.04657745361
+      }
+    ],
+    "final_portfolio": {
+      "cash": 72937.44746398926,
+      "positions": {
+        "KO": {
+          "shares": 454,
+          "cost_basis": 62.26626284427055,
+          "current_price": 62.24361038208008,
+          "market_value": 28258.599113464355
+        }
+      },
+      "total_value": 101196.04657745361
+    }
+  },
+  {
+    "ticker": "KO",
+    "category": "stable",
+    "system_mode": "quant_only",
+    "model_type": "xgboost",
+    "success": true,
+    "metrics": {
+      "cumulative_return": -0.010156591835021973,
+      "cumulative_return_pct": "-1.02%",
+      "sharpe_ratio": -3.56,
+      "max_drawdown": 0.0186,
+      "max_drawdown_pct": "1.86%",
+      "directional_accuracy": 0.5588,
+      "directional_accuracy_pct": "55.88%",
+      "win_rate": 0.375,
+      "win_rate_pct": "37.50%",
+      "num_trades": 22,
+      "initial_value": 100000.0,
+      "final_value": 98984.34,
+      "num_decisions": 37
+    },
+    "decisions": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 57.48070526123047,
+        "decision": "SELL signal but no position in KO (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.6538425395797276
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 57.45220184326172,
+        "decision": "BUY 139 shares of KO @ $57.45",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.10000004768372152
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 58.126766204833984,
+        "decision": "BUY 37 shares of KO @ $58.13",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.030562111953180704
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 56.54010772705078,
+        "decision": "SELL 101 shares of KO @ $56.54",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.577456224332531
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 55.371490478515625,
+        "decision": "SELL 46 shares of KO @ $55.37",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.6250274184372984
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 57.16716766357422,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0227093523736599
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 58.65882873535156,
+        "decision": "SELL 17 shares of KO @ $58.66",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.5965595131274259
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 59.06735610961914,
+        "decision": "SELL 12 shares of KO @ $59.07",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 60.102962493896484,
+        "decision": "SELL signal but no position in KO (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.8917935130734933
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 59.88444137573242,
+        "decision": "SELL signal but no position in KO (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.45554700305704193
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 58.905845642089844,
+        "decision": "SELL signal but no position in KO (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 59.7894287109375,
+        "decision": "SELL signal but no position in KO (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.10101199982806898
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 60.4164924621582,
+        "decision": "BUY 86 shares of KO @ $60.42",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.06557345769579115
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 59.95654296875,
+        "decision": "BUY 34 shares of KO @ $59.96",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.02770927868724016
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 61.12465286254883,
+        "decision": "SELL 6 shares of KO @ $61.12",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.05651861234184708
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 60.46400451660156,
+        "decision": "SELL 8 shares of KO @ $60.46",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.07844148441623844
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 60.15761184692383,
+        "decision": "SELL 106 shares of KO @ $60.16",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 62.43638610839844,
+        "decision": "SELL signal but no position in KO (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.7599938330123823
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 63.0108642578125,
+        "decision": "SELL signal but no position in KO (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.28451307727906716
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 63.901302337646484,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0059990018316113955
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 65.54814910888672,
+        "decision": "SELL signal but no position in KO (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.21309333949624865
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 65.66304779052734,
+        "decision": "SELL signal but no position in KO (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.10265210658929826
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 66.61093139648438,
+        "decision": "BUY 467 shares of KO @ $66.61",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.3900207908575127
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 68.69821166992188,
+        "decision": "SELL 467 shares of KO @ $68.70",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 68.14288330078125,
+        "decision": "SELL signal but no position in KO (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 68.20033264160156,
+        "decision": "SELL signal but no position in KO (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 68.07982635498047,
+        "decision": "SELL signal but no position in KO (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.7073766646570889
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 68.8317642211914,
+        "decision": "BUY 215 shares of KO @ $68.83",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.18422187497208142
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 67.98342895507812,
+        "decision": "SELL 215 shares of KO @ $67.98",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 66.75910949707031,
+        "decision": "SELL signal but no position in KO (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.13062380991474498
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 67.3857192993164,
+        "decision": "BUY 40 shares of KO @ $67.39",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.03399781780899502
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 64.8792495727539,
+        "decision": "BUY 473 shares of KO @ $64.88",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.3944477506037459
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "ticker": "KO",
+        "price": 62.96082305908203,
+        "decision": "SELL 277 shares of KO @ $62.96",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.5414751012735053
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "ticker": "KO",
+        "price": 61.370174407958984,
+        "decision": "SELL 20 shares of KO @ $61.37",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.08647009118697646
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "ticker": "KO",
+        "price": 60.30010223388672,
+        "decision": "SELL 166 shares of KO @ $60.30",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.771980069997733
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "ticker": "KO",
+        "price": 61.466575622558594,
+        "decision": "SELL 44 shares of KO @ $61.47",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.8843035359654139
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "ticker": "KO",
+        "price": 62.24361038208008,
+        "decision": "BUY 787 shares of KO @ $62.24",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.6219451296971457
+      }
+    ],
+    "portfolio_values": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "value": 100093.76444625854
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "value": 99814.5125541687
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "value": 99726.86626052856
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "value": 99778.94089889526
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "value": 99822.1990699768
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "value": 99827.10139846802
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "value": 99827.10139846802
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "value": 99827.10139846802
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "value": 99827.10139846802
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "value": 99827.10139846802
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "value": 99827.10139846802
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "value": 99787.54574203491
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "value": 99927.71892929077
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "value": 99852.40501785278
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "value": 99819.92739486694
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "value": 99819.92739486694
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "value": 99819.92739486694
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "value": 99819.92739486694
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "value": 99819.92739486694
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "value": 99819.92739486694
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "value": 99819.92739486694
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "value": 100794.68728256226
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "value": 100794.68728256226
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "value": 100794.68728256226
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "value": 100794.68728256226
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "value": 100794.68728256226
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "value": 100612.2952003479
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "value": 100612.2952003479
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "value": 100612.2952003479
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "value": 100512.0364112854
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "value": 99527.88360977173
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "value": 99152.49052810669
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "value": 98921.35493850708
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "value": 98979.67860794067
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "value": 98984.3408164978
+      }
+    ],
+    "final_portfolio": {
+      "cash": 49625.1577835083,
+      "positions": {
+        "KO": {
+          "shares": 793,
+          "cost_basis": 62.26503087711158,
+          "current_price": 62.24361038208008,
+          "market_value": 49359.1830329895
+        }
+      },
+      "total_value": 98984.3408164978
+    }
+  }
+]

@@ -1,0 +1,3761 @@
+[
+  {
+    "ticker": "JNJ",
+    "category": "increasing",
+    "system_mode": "full",
+    "model_type": "xgboost",
+    "success": true,
+    "metrics": {
+      "cumulative_return": 0.01084545883178711,
+      "cumulative_return_pct": "1.08%",
+      "sharpe_ratio": -3.072,
+      "max_drawdown": 0.0027,
+      "max_drawdown_pct": "0.27%",
+      "directional_accuracy": 0.4483,
+      "directional_accuracy_pct": "44.83%",
+      "win_rate": 0.75,
+      "win_rate_pct": "75.00%",
+      "num_trades": 9,
+      "initial_value": 100000.0,
+      "final_value": 101084.55,
+      "num_decisions": 37
+    },
+    "decisions": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 150.8775177001953,
+        "decision": "BUY signal but cannot execute (constraints or insufficient funds)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Market-Sense suggests BUY, Quant[xgboost] is neutral. Risk flags: interest rate changes, earnings surprises.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5300425594418052,
+        "signal_direction": "BUY",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 147.59860229492188,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (HOLD) and Market-Sense (NEUTRAL) agree. Risk flags: Interest rate changes could impact the healthcare sector, Earnings surprises could drive short-term stock moves.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 149.91090393066406,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: interest rate changes, earnings surprises.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.8469135766412006
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 144.41444396972656,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: Earnings surprises, Interest rate changes, Sector rotation.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5407881263952735,
+        "signal_direction": "SELL",
+        "signal_strength": 0.8962429581351143
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 139.79933166503906,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: interest rate changes, earnings surprises.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5734250284868115,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 140.16891479492188,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High volatility, Lack of clear catalyst.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5503371128484976,
+        "signal_direction": "SELL",
+        "signal_strength": 0.983798196723327
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 138.4915313720703,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High volatility, Negative short-term momentum.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5761743959857342,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 141.45773315429688,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: interest rate changes, earnings surprises.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.7,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 142.06423950195312,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High volatility, Lack of clear catalyst, Uncertainty in quantitative model signal.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.2501199253259529
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 146.5466766357422,
+        "decision": "BUY signal but cannot execute (constraints or insufficient funds)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Market-Sense suggests BUY, Quant[xgboost] is neutral. Risk flags: Interest rate changes could impact the stock price, Earnings surprises could drive short-term stock moves.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5455005437557356,
+        "signal_direction": "BUY",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 140.40396118164062,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High volatility, Lack of clear quantitative signal.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.55,
+        "signal_direction": "SELL",
+        "signal_strength": 0.5755796924534934
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 141.13954162597656,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: Moderate volatility, Lack of clear direction from quantitative model.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.4477501284916782
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 140.5568084716797,
+        "decision": "BUY 162 shares of JNJ @ $140.56",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests BUY, Market-Sense is neutral. Risk flags: Interest rate changes, Earnings surprises, Mean reversion.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "BUY",
+        "signal_strength": 0.2847252408383497
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 139.4295196533203,
+        "decision": "SELL 162 shares of JNJ @ $139.43",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: Moderate volatility, Lack of clear trend or catalyst.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5485658026903766,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 140.6141357421875,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High volatility, Lack of recent news, No clear quantitative model signal.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 139.50595092773438,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: Moderate volatility, Lack of recent news.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.6844928269381563
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 142.75405883789062,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High volatility, Interest rate sensitivity (although JNJ is not in the technology sector, interest rates can still impact the overall market).",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 149.58460998535156,
+        "decision": "BUY 78 shares of JNJ @ $149.58",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (BUY) and Market-Sense (BULLISH) agree. Risk flags: Lack of clear quantitative signal, Moderate volatility, Potential for earnings surprises.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5728331443533694,
+        "signal_direction": "BUY",
+        "signal_strength": 0.14797141069752384
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 149.2980194091797,
+        "decision": "BUY 36 shares of JNJ @ $149.30",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Market-Sense (BUY). Risk flags: high volatility, potential mean reversion.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5617568327761433,
+        "signal_direction": "BUY",
+        "signal_strength": 0.07909529465966159
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 150.79788208007812,
+        "decision": "BUY 76 shares of JNJ @ $150.80",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Market-Sense (BUY). Risk flags: High 30D volatility, indicating potential price swings, Lack of clear catalyst or signal for future price movement.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5809422901120045,
+        "signal_direction": "BUY",
+        "signal_strength": 0.1849048984295682
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 151.80096435546875,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: Interest rate changes could impact JNJ's valuation, although the company's stable business model may mitigate this risk., Mean reversion could lead to a price correction if JNJ's price moves too far from its historical average..",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5633740685989996,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.28631705045700073
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 151.39971923828125,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (HOLD) and Market-Sense (NEUTRAL) agree. Risk flags: Moderate volatility, Lack of clear catalyst.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 154.2179412841797,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: Interest rate changes could impact JNJ's valuation, Earnings surprises could drive short-term stock moves.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5329536982102623,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.4264776527881622
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 157.78529357910156,
+        "decision": "SELL 125 shares of JNJ @ $157.79",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Quant[xgboost] (SELL). Risk flags: Interest rate changes could impact the stock's valuation, Earnings surprises could drive short-term stock moves.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5463362707926689,
+        "signal_direction": "SELL",
+        "signal_strength": 0.6597188895629034
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 158.8152313232422,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High volatility, Lack of clear quantitative signal, Potential interest rate sensitivity.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5462069987338702,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.36710477471351627
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 158.47833251953125,
+        "decision": "BUY 69 shares of JNJ @ $158.48",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (BUY) and Market-Sense (BULLISH) agree. Risk flags: High volatility, Potential for mean reversion.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5467544676890006,
+        "signal_direction": "BUY",
+        "signal_strength": 0.15614838086277866
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 158.651611328125,
+        "decision": "SELL 50 shares of JNJ @ $158.65",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High P/E ratio, Interest rate sensitivity, Potential for earnings surprises.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.55,
+        "signal_direction": "SELL",
+        "signal_strength": 0.3767114710512459
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 155.34996032714844,
+        "decision": "SELL 84 shares of JNJ @ $155.35",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: Moderate volatility, Lack of recent news, Uncertainty in market direction.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 154.4932861328125,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: Moderate volatility, Lack of clear catalyst.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.6300309409144056
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 154.50289916992188,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: uncertainty due to high volatility, potential earnings surprise.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.7,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 158.314697265625,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: uncertainty due to high volatility, potential earnings surprise impact.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.4375527733411188
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 157.54464721679688,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: Moderate volatility, Lack of recent news, Uncertainty in quantitative model signal.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.024736512895424317
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 153.8772430419922,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (HOLD) and Market-Sense (NEUTRAL) agree. Risk flags: Moderate volatility, Lack of clear quantitative signal.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "ticker": "JNJ",
+        "price": 150.86436462402344,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (HOLD) and Market-Sense (NEUTRAL) agree. Risk flags: High volatility, Potential for earnings surprise.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.4,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "ticker": "JNJ",
+        "price": 146.18626403808594,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High volatility, Potential for mean reversion.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5766096479797427,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "ticker": "JNJ",
+        "price": 149.68040466308594,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High volatility, Potential for earnings surprise.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5499175484070175,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "ticker": "JNJ",
+        "price": 150.4059600830078,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: Interest rate changes could impact the stock's valuation, Earnings surprises could drive short-term stock moves.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.7,
+        "signal_direction": "SELL",
+        "signal_strength": 0.9685014209474554
+      }
+    ],
+    "portfolio_values": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "value": 99817.37921142578
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "value": 99817.37921142578
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "value": 99817.37921142578
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "value": 99817.37921142578
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "value": 99817.37921142578
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "value": 99795.02514648438
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "value": 99966.0094909668
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "value": 100156.59512329102
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "value": 100080.35855102539
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "value": 100615.8207397461
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "value": 101293.61767578125
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "value": 101360.56362915039
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "value": 101338.66520690918
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "value": 101361.88456726074
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "value": 101084.54588317871
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "value": 101084.54588317871
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "value": 101084.54588317871
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "value": 101084.54588317871
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "value": 101084.54588317871
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "value": 101084.54588317871
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "value": 101084.54588317871
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "value": 101084.54588317871
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "value": 101084.54588317871
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "value": 101084.54588317871
+      }
+    ],
+    "final_portfolio": {
+      "cash": 101084.54588317871,
+      "positions": {},
+      "total_value": 101084.54588317871
+    }
+  },
+  {
+    "ticker": "JNJ",
+    "category": "increasing",
+    "system_mode": "quant_only",
+    "model_type": "xgboost",
+    "success": true,
+    "metrics": {
+      "cumulative_return": -0.002446259307861328,
+      "cumulative_return_pct": "-0.24%",
+      "sharpe_ratio": -13.031,
+      "max_drawdown": 0.0034,
+      "max_drawdown_pct": "0.34%",
+      "directional_accuracy": 0.4062,
+      "directional_accuracy_pct": "40.62%",
+      "win_rate": 0.3333,
+      "win_rate_pct": "33.33%",
+      "num_trades": 10,
+      "initial_value": 100000.0,
+      "final_value": 99755.37,
+      "num_decisions": 37
+    },
+    "decisions": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 150.8775177001953,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 147.59860229492188,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.4595114175884963
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 149.91090393066406,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 144.41444396972656,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 139.79933166503906,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 140.16891479492188,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 138.4915313720703,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 141.45773315429688,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 142.06423950195312,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.44664272379634445
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 146.5466766357422,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.011480196818389743
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 140.40396118164062,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 141.13954162597656,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.7995538008779968
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 140.5568084716797,
+        "decision": "BUY 289 shares of JNJ @ $140.56",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.5084379300684816
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 139.4295196533203,
+        "decision": "SELL 289 shares of JNJ @ $139.43",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 140.6141357421875,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 139.50595092773438,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 142.75405883789062,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 149.58460998535156,
+        "decision": "BUY 49 shares of JNJ @ $149.58",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.09328922354612246
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 149.2980194091797,
+        "decision": "SELL 2 shares of JNJ @ $149.30",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.049561515539586765
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 150.79788208007812,
+        "decision": "SELL 11 shares of JNJ @ $150.80",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.25326248090110864
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 151.80096435546875,
+        "decision": "SELL 20 shares of JNJ @ $151.80",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.5692878707110882
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 151.39971923828125,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0009448472724216117
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 154.2179412841797,
+        "decision": "SELL 16 shares of JNJ @ $154.22",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 157.78529357910156,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 158.8152313232422,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.9358744140101495
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 158.47833251953125,
+        "decision": "BUY 54 shares of JNJ @ $158.48",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.10725309529391325
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 158.651611328125,
+        "decision": "SELL 36 shares of JNJ @ $158.65",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.6726990554486534
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 155.34996032714844,
+        "decision": "SELL 18 shares of JNJ @ $155.35",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 154.4932861328125,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 154.50289916992188,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 158.314697265625,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.7813442381091407
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 157.54464721679688,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.04417234445611484
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "ticker": "JNJ",
+        "price": 153.8772430419922,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.024694523347079667
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "ticker": "JNJ",
+        "price": 150.86436462402344,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0008879662880545425
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "ticker": "JNJ",
+        "price": 146.18626403808594,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "ticker": "JNJ",
+        "price": 149.68040466308594,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "ticker": "JNJ",
+        "price": 150.4059600830078,
+        "decision": "SELL signal but no position in JNJ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      }
+    ],
+    "portfolio_values": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "value": 99674.21353149414
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "value": 99674.21353149414
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "value": 99674.21353149414
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "value": 99674.21353149414
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "value": 99674.21353149414
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "value": 99660.17059326172
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "value": 99730.66413879395
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "value": 99766.77510070801
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "value": 99760.35517883301
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "value": 99805.44673156738
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "value": 99805.44673156738
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "value": 99805.44673156738
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "value": 99805.44673156738
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "value": 99814.80378723145
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "value": 99755.37406921387
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "value": 99755.37406921387
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "value": 99755.37406921387
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "value": 99755.37406921387
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "value": 99755.37406921387
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "value": 99755.37406921387
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "value": 99755.37406921387
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "value": 99755.37406921387
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "value": 99755.37406921387
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "value": 99755.37406921387
+      }
+    ],
+    "final_portfolio": {
+      "cash": 99755.37406921387,
+      "positions": {},
+      "total_value": 99755.37406921387
+    }
+  },
+  {
+    "ticker": "VZ",
+    "category": "decreasing",
+    "system_mode": "full",
+    "model_type": "xgboost",
+    "success": true,
+    "metrics": {
+      "cumulative_return": -0.010927915992736816,
+      "cumulative_return_pct": "-1.09%",
+      "sharpe_ratio": -1.221,
+      "max_drawdown": 0.0325,
+      "max_drawdown_pct": "3.25%",
+      "directional_accuracy": 0.6765,
+      "directional_accuracy_pct": "67.65%",
+      "win_rate": 0.4167,
+      "win_rate_pct": "41.67%",
+      "num_trades": 31,
+      "initial_value": 100000.0,
+      "final_value": 98907.21,
+      "num_decisions": 37
+    },
+    "decisions": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 35.47199249267578,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (HOLD) and Market-Sense (NEUTRAL) agree. Risk flags: Low P/E ratio may not be sustainable, Negative momentum may continue.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 36.158782958984375,
+        "decision": "BUY 1115 shares of VZ @ $36.16",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests BUY, Market-Sense is neutral. Risk flags: High volatility, Negative momentum, Uncertainty due to lack of news or clear quantitative signal.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.55,
+        "signal_direction": "BUY",
+        "signal_strength": 0.5040000400543221
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 37.42531967163086,
+        "decision": "BUY signal but cannot execute (constraints or insufficient funds)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Market-Sense suggests BUY, Quant[xgboost] is neutral. Risk flags: High volatility, Lack of catalyst.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5484756965873965,
+        "signal_direction": "BUY",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 37.56802749633789,
+        "decision": "BUY 78 shares of VZ @ $37.57",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Market-Sense (BUY). Risk flags: high volatility, potential for mean reversion.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5655199182485984,
+        "signal_direction": "BUY",
+        "signal_strength": 0.07526593319039374
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 36.00110626220703,
+        "decision": "BUY 209 shares of VZ @ $36.00",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests BUY, Market-Sense is neutral. Risk flags: High volatility may lead to sudden price swings, Lack of strong upward momentum may indicate a stagnant stock price, Low P/E ratio may not be sustainable if earnings decline.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.55,
+        "signal_direction": "BUY",
+        "signal_strength": 0.2048852416026392
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 36.699012756347656,
+        "decision": "SELL 455 shares of VZ @ $36.70",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High volatility, Lack of clear catalyst, Uncertainty in quantitative model signal.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.3248354248591085
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 35.96485900878906,
+        "decision": "SELL 197 shares of VZ @ $35.96",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: high volatility, recent downward trend, low quantitative model confidence.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.539023331681756,
+        "signal_direction": "SELL",
+        "signal_strength": 0.20904890386554353
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 35.24881362915039,
+        "decision": "SELL 154 shares of VZ @ $35.25",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: low confidence level of quantitative model signal, high volatility, lack of recent news.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5617337140581463,
+        "signal_direction": "SELL",
+        "signal_strength": 0.20537304116379262
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 36.61743927001953,
+        "decision": "SELL 160 shares of VZ @ $36.62",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: high volatility, uncertainty due to lack of news and quantitative signal.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.5,
+        "signal_direction": "SELL",
+        "signal_strength": 0.26905786117582625
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 36.30927276611328,
+        "decision": "SELL 391 shares of VZ @ $36.31",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: high volatility, recent price decline.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.8989263442512992
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 36.01923751831055,
+        "decision": "SELL 15 shares of VZ @ $36.02",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High volatility, Uncertainty in quantitative model signal, Potential for earnings surprises.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.33446207382102106
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 37.14313507080078,
+        "decision": "BUY 288 shares of VZ @ $37.14",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (BUY) and Market-Sense (BULLISH) agree. Risk flags: overbought conditions, high volatility, uncertainty due to lack of news and quantitative model signal.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5537414240825345,
+        "signal_direction": "BUY",
+        "signal_strength": 0.13561534654656177
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 36.626502990722656,
+        "decision": "SELL 315 shares of VZ @ $36.63",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: Low P/E ratio may not be sustainable, Stagnant stock price may indicate lack of growth catalysts.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.9917372398941449
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 35.76544952392578,
+        "decision": "SELL 1 shares of VZ @ $35.77",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High volatility, Lack of recent news or catalysts, Uncertainty in quantitative model signal.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.044142591274882646
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 37.23377227783203,
+        "decision": "SELL 1 shares of VZ @ $37.23",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Quant[xgboost] (SELL). Risk flags: High volatility, Lack of recent news or catalysts, Uncertainty surrounding the current market state.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5337190580145976,
+        "signal_direction": "SELL",
+        "signal_strength": 0.5508975838218966
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 37.25189971923828,
+        "decision": "SELL 1 shares of VZ @ $37.25",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High volatility, Lack of recent news or catalysts, Uncertainty in quantitative model signal.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.9585401237477156
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 37.84311294555664,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High volatility, Lack of clear direction.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5332166561230851,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.3049284160137176
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 38.71825408935547,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High volatility, Lack of clear catalyst, Uncertainty surrounding quantitative model signal.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5825602531139549,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.39254906773567194
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 36.544212341308594,
+        "decision": "BUY 83 shares of VZ @ $36.54",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests BUY, Market-Sense is neutral. Risk flags: High volatility, Negative momentum, Low quantitative model confidence.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.4,
+        "signal_direction": "BUY",
+        "signal_strength": 0.038314668647578286
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 37.32723617553711,
+        "decision": "SELL 11 shares of VZ @ $37.33",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High volatility, Lack of strong upward momentum, Uncertainty in quantitative model signal.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.13560773566616433
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 37.106143951416016,
+        "decision": "SELL 72 shares of VZ @ $37.11",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High volatility, Negative momentum, Lack of recent news.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.7,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 37.67729568481445,
+        "decision": "BUY 231 shares of VZ @ $37.68",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests BUY, Market-Sense is neutral. Risk flags: Low quantitative model confidence, Moderate volatility.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.4,
+        "signal_direction": "BUY",
+        "signal_strength": 0.10889019238383925
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 37.815467834472656,
+        "decision": "BUY 311 shares of VZ @ $37.82",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Market-Sense (BUY). Risk flags: High volatility, Uncertainty due to lack of recent news, Low quantitative model confidence.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5347867804973065,
+        "signal_direction": "BUY",
+        "signal_strength": 0.16527357205412138
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 38.22080612182617,
+        "decision": "BUY 74 shares of VZ @ $38.22",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests BUY, Market-Sense is neutral. Risk flags: High volatility, Lack of clear catalyst, Uncertainty in quantitative model signal.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.4,
+        "signal_direction": "BUY",
+        "signal_strength": 0.04770839143459114
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 38.054988861083984,
+        "decision": "SELL 15 shares of VZ @ $38.05",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High volatility, Lack of clear catalyst.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.02438081306835329
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 40.40406036376953,
+        "decision": "BUY 243 shares of VZ @ $40.40",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (BUY) and Market-Sense (BULLISH) agree. Risk flags: High volatility, Uncertainty due to low confidence level of quantitative model signal, Potential for mean reversion.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5723715603626531,
+        "signal_direction": "BUY",
+        "signal_strength": 0.17287633145028095
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 40.47775650024414,
+        "decision": "BUY signal but cannot execute (constraints or insufficient funds)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Market-Sense suggests BUY, Quant[xgboost] is neutral. Risk flags: High volatility, Lack of clear catalyst, Uncertainty in quantitative model signal.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5704021084024389,
+        "signal_direction": "BUY",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 41.10417556762695,
+        "decision": "BUY 954 shares of VZ @ $41.10",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (BUY) and Market-Sense (BULLISH) agree. Risk flags: High volatility, Lack of clear quantitative model signal, Potential for mean reversion.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5754397862936287,
+        "signal_direction": "BUY",
+        "signal_strength": 0.8341438778464163
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 41.01205825805664,
+        "decision": "BUY 64 shares of VZ @ $41.01",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (BUY) and Market-Sense (BULLISH) agree. Risk flags: High volatility, Lack of recent news, Uncertainty in quantitative model signal.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5777051704775726,
+        "signal_direction": "BUY",
+        "signal_strength": 0.3358313063667855
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 40.18341064453125,
+        "decision": "SELL 677 shares of VZ @ $40.18",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High volatility, Negative momentum, Uncertainty in quantitative model.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.3638911088425528
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 41.02543640136719,
+        "decision": "BUY 96 shares of VZ @ $41.03",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests BUY, Market-Sense is neutral. Risk flags: Low P/E ratio may not be sustainable, High volatility (30D Volatility: 20.7%) could lead to sudden price movements, Lack of recent news may indicate a lack of catalysts for price movement.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.55,
+        "signal_direction": "BUY",
+        "signal_strength": 0.12198192139330503
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 39.16362380981445,
+        "decision": "SELL 842 shares of VZ @ $39.16",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: high volatility, recent downward momentum, uncertainty due to lack of news.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.547210574862882,
+        "signal_direction": "SELL",
+        "signal_strength": 0.6577045313805324
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 39.41623306274414,
+        "decision": "SELL 211 shares of VZ @ $39.42",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: low quantitative model confidence, moderate volatility.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5389111218283956,
+        "signal_direction": "SELL",
+        "signal_strength": 0.4823115313212618
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "ticker": "VZ",
+        "price": 37.95671463012695,
+        "decision": "SELL 216 shares of VZ @ $37.96",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: low P/E ratio may not be sustainable, high volatility may lead to further price swings, lack of clear catalyst for price movement.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5554133155620362,
+        "signal_direction": "SELL",
+        "signal_strength": 0.9492732732548758
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "ticker": "VZ",
+        "price": 38.237388610839844,
+        "decision": "SELL 1 shares of VZ @ $38.24",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Market-Sense suggests SELL, Quant[xgboost] is neutral. Risk flags: High volatility, Negative momentum, Low confidence in quantitative model signal.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5679590038543607,
+        "signal_direction": "SELL",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "ticker": "VZ",
+        "price": 39.76239776611328,
+        "decision": "SELL 1 shares of VZ @ $39.76",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: Low confidence level from quantitative model signal, Moderate volatility.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.4,
+        "signal_direction": "SELL",
+        "signal_strength": 0.10763998553156853
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "ticker": "VZ",
+        "price": 41.4838752746582,
+        "decision": "BUY signal but cannot execute (constraints or insufficient funds)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Market-Sense suggests BUY, Quant[xgboost] is neutral. Risk flags: high volatility, low confidence in quantitative model signal, potential for mean reversion.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5524566162530731,
+        "signal_direction": "BUY",
+        "signal_strength": 0.0
+      }
+    ],
+    "portfolio_values": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "value": 101412.18843460083
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "value": 101571.30765914917
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "value": 99701.97062683105
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "value": 100680.43553161621
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "value": 99985.19193267822
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "value": 99448.15789794922
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "value": 100263.85877990723
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "value": 100129.4981842041
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "value": 100116.44659805298
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "value": 100150.16352462769
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "value": 99985.87452316284
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "value": 99983.29136276245
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "value": 99986.22800827026
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "value": 99986.24613571167
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "value": 99986.24613571167
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "value": 99986.24613571167
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "value": 99986.24613571167
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "value": 100051.23711395264
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "value": 100035.31847381592
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "value": 100035.31847381592
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "value": 100067.23624038696
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "value": 100286.92959213257
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "value": 100184.78615951538
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "value": 101596.5781326294
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "value": 101658.77767181396
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "value": 102187.47536468506
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "value": 102021.84844207764
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "value": 100478.90658569336
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "value": 101476.70710754395
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "value": 99091.72517776489
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "value": 99202.62063980103
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "value": 98869.8504371643
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "value": 98873.21852493286
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "value": 98889.99362564087
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "value": 98907.20840072632
+      }
+    ],
+    "final_portfolio": {
+      "cash": 98492.36964797974,
+      "positions": {
+        "VZ": {
+          "shares": 10,
+          "cost_basis": 40.02794286971934,
+          "current_price": 41.4838752746582,
+          "market_value": 414.83875274658203
+        }
+      },
+      "total_value": 98907.20840072632
+    }
+  },
+  {
+    "ticker": "VZ",
+    "category": "decreasing",
+    "system_mode": "quant_only",
+    "model_type": "xgboost",
+    "success": true,
+    "metrics": {
+      "cumulative_return": -0.00690066177368164,
+      "cumulative_return_pct": "-0.69%",
+      "sharpe_ratio": -0.953,
+      "max_drawdown": 0.034,
+      "max_drawdown_pct": "3.40%",
+      "directional_accuracy": 0.5625,
+      "directional_accuracy_pct": "56.25%",
+      "win_rate": 0.4444,
+      "win_rate_pct": "44.44%",
+      "num_trades": 24,
+      "initial_value": 100000.0,
+      "final_value": 99309.93,
+      "num_decisions": 37
+    },
+    "decisions": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 35.47199249267578,
+        "decision": "SELL signal but no position in VZ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 36.158782958984375,
+        "decision": "BUY 1991 shares of VZ @ $36.16",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.9000000715255752
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 37.42531967163086,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.023176996102201034
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 37.56802749633789,
+        "decision": "SELL 88 shares of VZ @ $37.57",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.044283414311827585
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 36.00110626220703,
+        "decision": "BUY 115 shares of VZ @ $36.00",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.36586650286185574
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 36.699012756347656,
+        "decision": "SELL 1170 shares of VZ @ $36.70",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.5800632586769794
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 35.96485900878906,
+        "decision": "SELL 144 shares of VZ @ $35.96",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.17060121463842393
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 35.24881362915039,
+        "decision": "SELL 112 shares of VZ @ $35.25",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.1591291573039033
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 36.61743927001953,
+        "decision": "SELL 284 shares of VZ @ $36.62",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.480460466385404
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 36.30927276611328,
+        "decision": "SELL 308 shares of VZ @ $36.31",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 36.01923751831055,
+        "decision": "SELL signal but no position in VZ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.5972537032518233
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 37.14313507080078,
+        "decision": "BUY 183 shares of VZ @ $37.14",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.08451119783504879
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 36.626502990722656,
+        "decision": "SELL 183 shares of VZ @ $36.63",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 35.76544952392578,
+        "decision": "SELL signal but no position in VZ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.07882605584800473
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 37.23377227783203,
+        "decision": "SELL signal but no position in VZ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 37.25189971923828,
+        "decision": "SELL signal but no position in VZ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 37.84311294555664,
+        "decision": "SELL signal but no position in VZ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.6457037423099643
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 38.71825408935547,
+        "decision": "SELL signal but no position in VZ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 36.544212341308594,
+        "decision": "BUY 150 shares of VZ @ $36.54",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.0684190511563898
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 37.32723617553711,
+        "decision": "SELL 36 shares of VZ @ $37.33",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.2421566708324363
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 37.106143951416016,
+        "decision": "SELL 114 shares of VZ @ $37.11",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 37.67729568481445,
+        "decision": "BUY 416 shares of VZ @ $37.68",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.19444677211399863
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 37.815467834472656,
+        "decision": "SELL 99 shares of VZ @ $37.82",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.23877316120150205
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 38.22080612182617,
+        "decision": "BUY 153 shares of VZ @ $38.22",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.08519355613319847
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 38.054988861083984,
+        "decision": "SELL 20 shares of VZ @ $38.05",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.04353716619348802
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 40.40406036376953,
+        "decision": "BUY 187 shares of VZ @ $40.40",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.11943236621902997
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 40.47775650024414,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.004427954161343451
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 41.10417556762695,
+        "decision": "BUY 1356 shares of VZ @ $41.10",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 41.01205825805664,
+        "decision": "BUY signal but cannot execute (constraints or insufficient funds)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.3215849757555489
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 40.18341064453125,
+        "decision": "SELL 1295 shares of VZ @ $40.18",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.6498055515045587
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 41.02543640136719,
+        "decision": "BUY 277 shares of VZ @ $41.03",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.2178248596309018
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 39.16362380981445,
+        "decision": "SELL 826 shares of VZ @ $39.16",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.847667107336747
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "ticker": "VZ",
+        "price": 39.41623306274414,
+        "decision": "SELL 84 shares of VZ @ $39.42",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.5651852690837789
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "ticker": "VZ",
+        "price": 37.95671463012695,
+        "decision": "SELL 65 shares of VZ @ $37.96",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "ticker": "VZ",
+        "price": 38.237388610839844,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.011511581862686526
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "ticker": "VZ",
+        "price": 39.76239776611328,
+        "decision": "SELL signal but no position in VZ (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.19221425987780094
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "ticker": "VZ",
+        "price": 41.4838752746582,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.009063573652703383
+      }
+    ],
+    "portfolio_values": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "value": 102521.67459487915
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "value": 102805.80587387085
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "value": 99823.95476531982
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "value": 101232.3300704956
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "value": 100609.76769256592
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "value": 100105.6717453003
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "value": 100915.89812469482
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "value": 100820.9828414917
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "value": 100820.9828414917
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "value": 100820.9828414917
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "value": 100726.4391708374
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "value": 100726.4391708374
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "value": 100726.4391708374
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "value": 100726.4391708374
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "value": 100726.4391708374
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "value": 100726.4391708374
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "value": 100726.4391708374
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "value": 100843.89274597168
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "value": 100818.68823242188
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "value": 100818.68823242188
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "value": 100876.16784667969
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "value": 101004.66008377075
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "value": 100926.72597122192
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "value": 101983.80814743042
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "value": 102030.75258636475
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "value": 102429.7815322876
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "value": 102246.19173431396
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "value": 100594.69704055786
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "value": 101182.43101882935
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "value": 99367.16374206543
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "value": 99404.80252075195
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "value": 99309.93382263184
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "value": 99309.93382263184
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "value": 99309.93382263184
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "value": 99309.93382263184
+      }
+    ],
+    "final_portfolio": {
+      "cash": 99309.93382263184,
+      "positions": {},
+      "total_value": 99309.93382263184
+    }
+  },
+  {
+    "ticker": "F",
+    "category": "stable",
+    "system_mode": "full",
+    "model_type": "xgboost",
+    "success": true,
+    "metrics": {
+      "cumulative_return": -0.05341982911109924,
+      "cumulative_return_pct": "-5.34%",
+      "sharpe_ratio": -0.841,
+      "max_drawdown": 0.1325,
+      "max_drawdown_pct": "13.25%",
+      "directional_accuracy": 0.5484,
+      "directional_accuracy_pct": "54.84%",
+      "win_rate": 0.0,
+      "win_rate_pct": "0.00%",
+      "num_trades": 19,
+      "initial_value": 100000.0,
+      "final_value": 94658.02,
+      "num_decisions": 37
+    },
+    "decisions": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "ticker": "F",
+        "price": 10.794593811035156,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (HOLD) and Market-Sense (NEUTRAL) agree. Risk flags: Interest rate risk: Rising interest rates could negatively impact F's valuation., Mean reversion risk: If the stock's price has been declining, it may be due for a reversal, but this is not guaranteed..",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "ticker": "F",
+        "price": 11.545211791992188,
+        "decision": "BUY 4847 shares of F @ $11.55",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (BUY) and Market-Sense (BULLISH) agree. Risk flags: Interest rate changes, Mean reversion correction, High volatility.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5660065532901044,
+        "signal_direction": "BUY",
+        "signal_strength": 0.6996039740789406
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "ticker": "F",
+        "price": 11.866904258728027,
+        "decision": "BUY 131 shares of F @ $11.87",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Market-Sense (BUY). Risk flags: Interest rate hike, High volatility, Sector sensitivity to interest rates.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5675241678921157,
+        "signal_direction": "BUY",
+        "signal_strength": 0.06597352221911236
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "ticker": "F",
+        "price": 11.866904258728027,
+        "decision": "BUY 1445 shares of F @ $11.87",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (BUY) and Market-Sense (BULLISH) agree. Risk flags: High volatility, Interest rate sensitivity, Mean reversion potential.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5701047164633586,
+        "signal_direction": "BUY",
+        "signal_strength": 0.7734972895141058
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "ticker": "F",
+        "price": 11.268198013305664,
+        "decision": "BUY 301 shares of F @ $11.27",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (BUY) and Market-Sense (BULLISH) agree. Risk flags: Interest rate risk: Rising rates may negatively impact F's valuation, Sector-specific risk: Technology sector's sensitivity to interest rates, Volatility risk: High 30D volatility may lead to increased price fluctuations.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5438742031947834,
+        "signal_direction": "BUY",
+        "signal_strength": 0.5866394377715538
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "ticker": "F",
+        "price": 10.8482084274292,
+        "decision": "SELL 1531 shares of F @ $10.85",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High volatility, Recent downward momentum, Interest rate sensitivity.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5603716395264774,
+        "signal_direction": "SELL",
+        "signal_strength": 0.22770337889636416
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "ticker": "F",
+        "price": 11.429044723510742,
+        "decision": "SELL 5193 shares of F @ $11.43",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High volatility, Potential interest rate impact on valuation, Sector sensitivity to interest rates.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.536897536684451,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "ticker": "F",
+        "price": 11.107352256774902,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High volatility, Interest rate sensitivity, Potential for further downward momentum.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.564005909662116,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "ticker": "F",
+        "price": 10.8443021774292,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High volatility, Negative momentum, Interest rate sensitivity (if F is in the technology sector).",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5376187776764236,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "ticker": "F",
+        "price": 11.10659122467041,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: Interest rate risk: A potential rate hike could negatively impact F's valuation due to its sensitivity to interest rates., Volatility risk: The high 30D volatility suggests some uncertainty and potential for price swings..",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "ticker": "F",
+        "price": 10.998058319091797,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: Interest rate risk: Rising interest rates could negatively impact F's valuation, Sector-specific risk: Technology sector's sensitivity to interest rates, Volatility risk: High 30D volatility of 32.4% indicates potential for further price swings.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5377097487012507,
+        "signal_direction": "SELL",
+        "signal_strength": 0.9354528830824229
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "ticker": "F",
+        "price": 11.025190353393555,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: high volatility, sector sensitivity to interest rates, uncertainty due to lack of news and quantitative signal.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.5,
+        "signal_direction": "SELL",
+        "signal_strength": 0.13339003201317326
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "ticker": "F",
+        "price": 11.19703483581543,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Quant[xgboost] (SELL). Risk flags: interest rate risk, sector-specific risk, volatility risk.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5325270038232972,
+        "signal_direction": "SELL",
+        "signal_strength": 0.7486273004358872
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "ticker": "F",
+        "price": 10.717680931091309,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Market-Sense suggests SELL, Quant[xgboost] is neutral. Risk flags: High volatility, Interest rate sensitivity, Potential for mean reversion.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5350161706424594,
+        "signal_direction": "SELL",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "ticker": "F",
+        "price": 10.934746742248535,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High volatility, Interest rate sensitivity, Potential for mean reversion.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.4100210736417211
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "ticker": "F",
+        "price": 11.640213966369629,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: Interest rate risk, Sector-specific risk, Volatility risk.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5557834915554787,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.34740448594093326
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "ticker": "F",
+        "price": 11.911548614501953,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: Interest rate risk: Rising interest rates could negatively impact F's valuation, Sector risk: Technology sector's sensitivity to interest rates, Volatility risk: Moderate 30D volatility of 30.9%.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.563812767323099,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.33757254481315613
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "ticker": "F",
+        "price": 13.0963716506958,
+        "decision": "BUY 886 shares of F @ $13.10",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Market-Sense (BUY). Risk flags: Interest rate risk: Rising rates could negatively impact F's valuation, Mean reversion risk: The significant 1M momentum may lead to a reversal, Sector-specific risk: Technology sector sensitivity to interest rates.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.7,
+        "signal_direction": "BUY",
+        "signal_strength": 0.14817607998847962
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "ticker": "F",
+        "price": 12.363770484924316,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: Interest rate risk: Rising rates could negatively impact F's valuation, Volatility risk: High 30D volatility suggests a high level of uncertainty, Sector risk: Technology sector is sensitive to interest rates.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.630686496574673,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.38296882510185243
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "ticker": "F",
+        "price": 9.786100387573242,
+        "decision": "SELL 1 shares of F @ $9.79",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Market-Sense suggests SELL, Quant[xgboost] is neutral. Risk flags: High volatility, Interest rate sensitivity, Recent downward price pressure.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.659285180165348,
+        "signal_direction": "SELL",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "ticker": "F",
+        "price": 8.974072456359863,
+        "decision": "SELL 502 shares of F @ $8.97",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: high volatility, interest rate sensitivity, uncertainty due to lack of news.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.7,
+        "signal_direction": "SELL",
+        "signal_strength": 0.5675889571231529
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "ticker": "F",
+        "price": 9.35067081451416,
+        "decision": "SELL 1 shares of F @ $9.35",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Market-Sense suggests SELL, Quant[xgboost] is neutral. Risk flags: High 30D volatility, Potential interest rate hike, Sector sensitivity to interest rates.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.7,
+        "signal_direction": "SELL",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "ticker": "F",
+        "price": 9.96608829498291,
+        "decision": "SELL 1 shares of F @ $9.97",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Market-Sense suggests SELL, Quant[xgboost] is neutral. Risk flags: high volatility, interest rate sensitivity, potential for further price declines.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.6939280733870792,
+        "signal_direction": "SELL",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "ticker": "F",
+        "price": 10.140609741210938,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Holding due to uncertainty. Risk flags: High volatility (39.0% 30D), Potential interest rate sensitivity, Mean reversion risk (stock may be due for a correction).",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5362258039052885,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.2684069752693176
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "ticker": "F",
+        "price": 9.892605781555176,
+        "decision": "BUY 1033 shares of F @ $9.89",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (BUY) and Market-Sense (BULLISH) agree. Risk flags: High volatility, Uncertainty due to lack of recent news, Interest rate sensitivity (if F is in the technology sector).",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.6023541240236314,
+        "signal_direction": "BUY",
+        "signal_strength": 0.14213773598437388
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "ticker": "F",
+        "price": 9.754826545715332,
+        "decision": "BUY signal but cannot execute (constraints or insufficient funds)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Market-Sense suggests BUY, Quant[xgboost] is neutral. Risk flags: Interest rate changes could negatively impact F's valuation, High volatility may lead to rapid price movements, Undervaluation may not necessarily lead to a price increase.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5432221109285378,
+        "signal_direction": "BUY",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "ticker": "F",
+        "price": 10.03038501739502,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (HOLD) and Market-Sense (NEUTRAL) agree. Risk flags: High volatility, Interest rate sensitivity, Lack of clear momentum.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.4,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "ticker": "F",
+        "price": 9.809937477111816,
+        "decision": "SELL 1414 shares of F @ $9.81",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (SELL) and Market-Sense (BEARISH) agree. Risk flags: High volatility, Interest rate sensitivity, Lack of clear catalyst.",
+        "market_outlook": "BEARISH",
+        "market_confidence": 0.5326087160967535,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "ticker": "F",
+        "price": 9.598674774169922,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: Interest rate risk: Rising interest rates could negatively impact F's valuation due to its technology sector classification., Volatility risk: High 30D volatility indicates significant price fluctuations, making it challenging to predict F's future performance..",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.55,
+        "signal_direction": "SELL",
+        "signal_strength": 0.5760814139861464
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "ticker": "F",
+        "price": 9.809937477111816,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: Interest rate hike risk, High volatility risk, Sector-specific risk due to technology sector's sensitivity to interest rates.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.55,
+        "signal_direction": "SELL",
+        "signal_strength": 0.2240623956256279
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "ticker": "F",
+        "price": 10.168164253234863,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: High volatility, Interest rate sensitivity, Potential for mean reversion.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.5,
+        "signal_direction": "SELL",
+        "signal_strength": 0.18508750606413216
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "ticker": "F",
+        "price": 10.32431697845459,
+        "decision": "BUY 7321 shares of F @ $10.32",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (BUY) and Market-Sense (BULLISH) agree. Risk flags: High volatility, Interest rate sensitivity, Mean reversion uncertainty.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5524345341183778,
+        "signal_direction": "BUY",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "ticker": "F",
+        "price": 9.451709747314453,
+        "decision": "SELL 123 shares of F @ $9.45",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests SELL, Market-Sense is neutral. Risk flags: interest rate changes, sector sensitivity, high volatility.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "SELL",
+        "signal_strength": 0.016871707323886657
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "ticker": "F",
+        "price": 10.203908920288086,
+        "decision": "BUY 10 shares of F @ $10.20",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Signals conflict. Going with Market-Sense (BUY). Risk flags: High volatility, Interest rate sensitivity, Potential for mean reversion.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.5401604438453833,
+        "signal_direction": "BUY",
+        "signal_strength": 0.07828713006275262
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "ticker": "F",
+        "price": 10.306319236755371,
+        "decision": "BUY 8 shares of F @ $10.31",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests BUY, Market-Sense is neutral. Risk flags: high volatility, interest rate sensitivity, uncertainty due to lack of recent news and quantitative model signal.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.6,
+        "signal_direction": "BUY",
+        "signal_strength": 0.08170397118792608
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "ticker": "F",
+        "price": 10.054946899414062,
+        "decision": "BUY 6 shares of F @ $10.05",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] suggests BUY, Market-Sense is neutral. Risk flags: Interest rate sensitivity, High volatility, Recent downward momentum.",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.4,
+        "signal_direction": "BUY",
+        "signal_strength": 0.045938468237133635
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "ticker": "F",
+        "price": 10.3621826171875,
+        "decision": "BUY 21 shares of F @ $10.36",
+        "regime": "UNKNOWN",
+        "reasoning": "[FULL] Quant[xgboost] (BUY) and Market-Sense (BULLISH) agree. Risk flags: High volatility, Interest rate sensitivity, Lack of clear quantitative model signal.",
+        "market_outlook": "BULLISH",
+        "market_confidence": 0.596328907066972,
+        "signal_direction": "BUY",
+        "signal_strength": 0.25557023420936076
+      }
+    ],
+    "portfolio_values": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "value": 101559.24338626862
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "value": 101559.24338626862
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "value": 97713.75317192078
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "value": 94889.74319648743
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "value": 97906.02608203888
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "value": 97906.02608203888
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "value": 97906.02608203888
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "value": 97906.02608203888
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "value": 97906.02608203888
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "value": 97906.02608203888
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "value": 97906.02608203888
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "value": 97906.02608203888
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "value": 97906.02608203888
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "value": 97906.02608203888
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "value": 97906.02608203888
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "value": 97906.02608203888
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "value": 97256.94144916534
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "value": 94973.12574291229
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "value": 94254.48102378845
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "value": 94398.71819496155
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "value": 94633.80767250061
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "value": 94700.30034351349
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "value": 94605.81083488464
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "value": 94410.9909954071
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "value": 94800.63067436218
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "value": 94488.91785240173
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "value": 94488.91785240173
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "value": 94488.91785240173
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "value": 94488.91785240173
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "value": 94488.91785240173
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "value": 88100.56031322479
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "value": 93514.889960289
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "value": 94253.0635213852
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "value": 92439.16073513031
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "value": 94658.01708889008
+      }
+    ],
+    "final_portfolio": {
+      "cash": 19604.728392601013,
+      "positions": {
+        "F": {
+          "shares": 7243,
+          "cost_basis": 10.324017502467276,
+          "current_price": 10.3621826171875,
+          "market_value": 75053.28869628906
+        }
+      },
+      "total_value": 94658.01708889008
+    }
+  },
+  {
+    "ticker": "F",
+    "category": "stable",
+    "system_mode": "quant_only",
+    "model_type": "xgboost",
+    "success": true,
+    "metrics": {
+      "cumulative_return": 0.00929397518157959,
+      "cumulative_return_pct": "0.93%",
+      "sharpe_ratio": -0.192,
+      "max_drawdown": 0.1024,
+      "max_drawdown_pct": "10.24%",
+      "directional_accuracy": 0.4333,
+      "directional_accuracy_pct": "43.33%",
+      "win_rate": 0.1667,
+      "win_rate_pct": "16.67%",
+      "num_trades": 15,
+      "initial_value": 100000.0,
+      "final_value": 100929.4,
+      "num_decisions": 37
+    },
+    "decisions": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "ticker": "F",
+        "price": 10.794593811035156,
+        "decision": "BUY 3505 shares of F @ $10.79",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.4729495953938923
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "ticker": "F",
+        "price": 11.545211791992188,
+        "decision": "BUY 3245 shares of F @ $11.55",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.9000000715255752
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "ticker": "F",
+        "price": 11.866904258728027,
+        "decision": "SELL 228 shares of F @ $11.87",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.03378396585142163
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "ticker": "F",
+        "price": 11.866904258728027,
+        "decision": "BUY 543 shares of F @ $11.87",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "ticker": "F",
+        "price": 11.268198013305664,
+        "decision": "BUY 55 shares of F @ $11.27",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.7312408317270425
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "ticker": "F",
+        "price": 10.8482084274292,
+        "decision": "SELL 1328 shares of F @ $10.85",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.18656055758925483
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "ticker": "F",
+        "price": 11.429044723510742,
+        "decision": "SELL 5792 shares of F @ $11.43",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "ticker": "F",
+        "price": 11.107352256774902,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "ticker": "F",
+        "price": 10.8443021774292,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "ticker": "F",
+        "price": 11.10659122467041,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "ticker": "F",
+        "price": 10.998058319091797,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "ticker": "F",
+        "price": 11.025190353393555,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.23819648573780938
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "ticker": "F",
+        "price": 11.19703483581543,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "ticker": "F",
+        "price": 10.717680931091309,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 3.5006028298312236e-07
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "ticker": "F",
+        "price": 10.934746742248535,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.7321804886459304
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "ticker": "F",
+        "price": 11.640213966369629,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.8381241448047506
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "ticker": "F",
+        "price": 11.911548614501953,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.7913557153585438
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "ticker": "F",
+        "price": 13.0963716506958,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.11202117694261383
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "ticker": "F",
+        "price": 12.363770484924316,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "ticker": "F",
+        "price": 9.786100387573242,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.0022303157729552936
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "ticker": "F",
+        "price": 8.974072456359863,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.5777195144995861
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "ticker": "F",
+        "price": 9.35067081451416,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 1.7089001289605225e-05
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "ticker": "F",
+        "price": 9.96608829498291,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.004281560187600065
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "ticker": "F",
+        "price": 10.140609741210938,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.5002937803696117
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "ticker": "F",
+        "price": 9.892605781555176,
+        "decision": "BUY 671 shares of F @ $9.89",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.08223176464273509
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "ticker": "F",
+        "price": 9.754826545715332,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.008393128844410569
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "ticker": "F",
+        "price": 10.03038501739502,
+        "decision": "HOLD - No trade executed",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: HOLD (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "HOLD",
+        "signal_strength": 0.019549577629938142
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "ticker": "F",
+        "price": 9.809937477111816,
+        "decision": "SELL 671 shares of F @ $9.81",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "ticker": "F",
+        "price": 9.598674774169922,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "ticker": "F",
+        "price": 9.809937477111816,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.40011142076004985
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "ticker": "F",
+        "price": 10.168164253234863,
+        "decision": "SELL signal but no position in F (long-only)",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.3305134036859503
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "ticker": "F",
+        "price": 10.32431697845459,
+        "decision": "BUY 7817 shares of F @ $10.32",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 1.0
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "ticker": "F",
+        "price": 9.451709747314453,
+        "decision": "SELL 235 shares of F @ $9.45",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.030128048792654738
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "ticker": "F",
+        "price": 10.203908920288086,
+        "decision": "SELL 398 shares of F @ $10.20",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: SELL (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "SELL",
+        "signal_strength": 0.052514011960944636
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "ticker": "F",
+        "price": 10.306319236755371,
+        "decision": "BUY 90 shares of F @ $10.31",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.14589994854986799
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "ticker": "F",
+        "price": 10.054946899414062,
+        "decision": "BUY 47 shares of F @ $10.05",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.0820329789948815
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "ticker": "F",
+        "price": 10.3621826171875,
+        "decision": "BUY 98 shares of F @ $10.36",
+        "regime": "UNKNOWN",
+        "reasoning": "[QUANT-ONLY] xgboost signal: BUY (regime: N/A)",
+        "market_outlook": "NEUTRAL",
+        "market_confidence": 0.0,
+        "signal_direction": "BUY",
+        "signal_strength": 0.20844595682124378
+      }
+    ],
+    "portfolio_values": [
+      {
+        "date": "2024-03-14 00:00:00-04:00",
+        "value": 100000.0
+      },
+      {
+        "date": "2024-03-21 00:00:00-04:00",
+        "value": 102630.9160232544
+      },
+      {
+        "date": "2024-03-28 00:00:00-04:00",
+        "value": 104802.34017372131
+      },
+      {
+        "date": "2024-04-05 00:00:00-04:00",
+        "value": 104802.34017372131
+      },
+      {
+        "date": "2024-04-12 00:00:00-04:00",
+        "value": 100572.48054981232
+      },
+      {
+        "date": "2024-04-19 00:00:00-04:00",
+        "value": 97582.15469837189
+      },
+      {
+        "date": "2024-04-26 00:00:00-04:00",
+        "value": 100946.35852527618
+      },
+      {
+        "date": "2024-05-03 00:00:00-04:00",
+        "value": 100946.35852527618
+      },
+      {
+        "date": "2024-05-10 00:00:00-04:00",
+        "value": 100946.35852527618
+      },
+      {
+        "date": "2024-05-17 00:00:00-04:00",
+        "value": 100946.35852527618
+      },
+      {
+        "date": "2024-05-24 00:00:00-04:00",
+        "value": 100946.35852527618
+      },
+      {
+        "date": "2024-06-03 00:00:00-04:00",
+        "value": 100946.35852527618
+      },
+      {
+        "date": "2024-06-10 00:00:00-04:00",
+        "value": 100946.35852527618
+      },
+      {
+        "date": "2024-06-17 00:00:00-04:00",
+        "value": 100946.35852527618
+      },
+      {
+        "date": "2024-06-25 00:00:00-04:00",
+        "value": 100946.35852527618
+      },
+      {
+        "date": "2024-07-02 00:00:00-04:00",
+        "value": 100946.35852527618
+      },
+      {
+        "date": "2024-07-10 00:00:00-04:00",
+        "value": 100946.35852527618
+      },
+      {
+        "date": "2024-07-17 00:00:00-04:00",
+        "value": 100946.35852527618
+      },
+      {
+        "date": "2024-07-24 00:00:00-04:00",
+        "value": 100946.35852527618
+      },
+      {
+        "date": "2024-07-31 00:00:00-04:00",
+        "value": 100946.35852527618
+      },
+      {
+        "date": "2024-08-07 00:00:00-04:00",
+        "value": 100946.35852527618
+      },
+      {
+        "date": "2024-08-14 00:00:00-04:00",
+        "value": 100946.35852527618
+      },
+      {
+        "date": "2024-08-21 00:00:00-04:00",
+        "value": 100946.35852527618
+      },
+      {
+        "date": "2024-08-28 00:00:00-04:00",
+        "value": 100946.35852527618
+      },
+      {
+        "date": "2024-09-05 00:00:00-04:00",
+        "value": 100946.35852527618
+      },
+      {
+        "date": "2024-09-12 00:00:00-04:00",
+        "value": 100853.90865802765
+      },
+      {
+        "date": "2024-09-19 00:00:00-04:00",
+        "value": 101038.80839252472
+      },
+      {
+        "date": "2024-09-26 00:00:00-04:00",
+        "value": 100890.88809299469
+      },
+      {
+        "date": "2024-10-03 00:00:00-04:00",
+        "value": 100890.88809299469
+      },
+      {
+        "date": "2024-10-10 00:00:00-04:00",
+        "value": 100890.88809299469
+      },
+      {
+        "date": "2024-10-17 00:00:00-04:00",
+        "value": 100890.88809299469
+      },
+      {
+        "date": "2024-10-24 00:00:00-04:00",
+        "value": 100890.88809299469
+      },
+      {
+        "date": "2024-10-31 00:00:00-04:00",
+        "value": 94069.71736717224
+      },
+      {
+        "date": "2024-11-07 00:00:00-05:00",
+        "value": 99772.89149665833
+      },
+      {
+        "date": "2024-11-14 00:00:00-05:00",
+        "value": 100508.6072101593
+      },
+      {
+        "date": "2024-11-21 00:00:00-05:00",
+        "value": 98680.12482833862
+      },
+      {
+        "date": "2024-11-29 00:00:00-05:00",
+        "value": 100929.39751815796
+      }
+    ],
+    "final_portfolio": {
+      "cash": 24052.364681243896,
+      "positions": {
+        "F": {
+          "shares": 7419,
+          "cost_basis": 10.322892344693704,
+          "current_price": 10.3621826171875,
+          "market_value": 76877.03283691406
+        }
+      },
+      "total_value": 100929.39751815796
+    }
+  }
+]

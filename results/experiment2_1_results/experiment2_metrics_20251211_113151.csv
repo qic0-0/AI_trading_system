@@ -1,0 +1,7 @@
+Ticker,Category,System_Mode,Model_Type,Cumulative_Return,Cumulative_Return_Pct,Sharpe_Ratio,Max_Drawdown,Max_Drawdown_Pct,Directional_Accuracy,Win_Rate,Num_Trades,Final_Value
+JNJ,increasing,full,xgboost,0.01084545883178711,1.08%,-3.072,0.0027,0.27%,0.4483,0.75,9,101084.55
+JNJ,increasing,quant_only,xgboost,-0.002446259307861328,-0.24%,-13.031,0.0034,0.34%,0.4062,0.3333,10,99755.37
+VZ,decreasing,full,xgboost,-0.010927915992736816,-1.09%,-1.221,0.0325,3.25%,0.6765,0.4167,31,98907.21
+VZ,decreasing,quant_only,xgboost,-0.00690066177368164,-0.69%,-0.953,0.034,3.40%,0.5625,0.4444,24,99309.93
+F,stable,full,xgboost,-0.05341982911109924,-5.34%,-0.841,0.1325,13.25%,0.5484,0.0,19,94658.02
+F,stable,quant_only,xgboost,0.00929397518157959,0.93%,-0.192,0.1024,10.24%,0.4333,0.1667,15,100929.4

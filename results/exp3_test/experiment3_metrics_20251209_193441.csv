@@ -1,0 +1,2 @@
+Ticker,Category,System_Mode,Model_Type,Cumulative_Return,Cumulative_Return_Pct,Sharpe_Ratio,Max_Drawdown,Max_Drawdown_Pct,Directional_Accuracy,Win_Rate,Num_Trades,Final_Value
+NVDA,custom,llm_only,none,0.0,0.00%,0.0,0,0.00%,0.0,0.0,0,100000.0

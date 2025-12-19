@@ -1,0 +1,7 @@
+Ticker,Category,System_Mode,Model_Type,Cumulative_Return,Cumulative_Return_Pct,Sharpe_Ratio,Max_Drawdown,Max_Drawdown_Pct,Directional_Accuracy,Win_Rate,Num_Trades,Final_Value
+NVDA,increasing,full,xgboost,0.027202146224975587,2.72%,-0.109,0.0356,3.56%,0.375,0.6667,23,102720.21
+NVDA,increasing,quant_only,xgboost,0.08355857604980468,8.36%,0.479,0.0508,5.08%,0.303,0.6667,13,108355.86
+MRNA,decreasing,full,xgboost,0.0309393106842041,3.09%,-0.08,0.0343,3.43%,0.6296,0.6667,9,103093.93
+MRNA,decreasing,quant_only,xgboost,-0.1322762119293213,-13.23%,-2.12,0.157,15.70%,0.5484,0.2,14,86772.38
+KO,stable,full,xgboost,0.011960465774536133,1.20%,-1.821,0.0059,0.59%,0.75,0.5,26,101196.05
+KO,stable,quant_only,xgboost,-0.010156591835021973,-1.02%,-3.56,0.0186,1.86%,0.5588,0.375,22,98984.34
