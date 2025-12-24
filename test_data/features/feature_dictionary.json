@@ -1,0 +1,90 @@
+{
+  "generated_at": "2025-12-23 18:07:55",
+  "tickers": [
+    "AAPL",
+    "JNJ"
+  ],
+  "datasets": {
+    "independent_factors": {
+      "description": "Per-ticker factors computed from price data",
+      "scope": "Per ticker",
+      "frequency": "Hourly",
+      "source": "price_data",
+      "path_pattern": "features/independent_factors/{ticker}.parquet",
+      "factors": {
+        "compute_log_return_y": "Compute log return within same hourly bar. Formula: ln(Close/Open)",
+        "compute_return_1h": "Compute 1-hour log return. Formula: ln(Close_t / Close_t-1)",
+        "compute_return_5h": "Compute 5-hour log return. Formula: ln(Close_t / Close_t-5)",
+        "compute_rsi": "Compute Relative Strength Index (RSI). Range 0-100.",
+        "compute_volatility": "Compute rolling volatility (std of returns).",
+        "compute_macd": "Compute MACD line. Formula: EMA(12) - EMA(26)",
+        "compute_macd_signal": "Compute MACD signal line. Formula: EMA(9) of MACD",
+        "compute_macd_hist": "Compute MACD histogram. Formula: MACD - Signal",
+        "compute_volume_ratio": "Compute volume ratio (current / average).",
+        "compute_price_range": "Compute price range within bar. Formula: (High-Low)/Open",
+        "compute_sector_return": "Compute sector ETF return for a ticker."
+      },
+      "tickers": [
+        "AAPL",
+        "JNJ"
+      ]
+    },
+    "shared_factors": {
+      "description": "Market and economic factors shared across all tickers",
+      "scope": "Shared (all tickers)",
+      "frequency": "Hourly",
+      "source": "market_data, economic",
+      "path": "features/shared_factors.parquet",
+      "factors": {
+        "compute_spy_return": "Compute SPY (S&P 500) return.",
+        "compute_vix_level": "Get VIX level (volatility index).",
+        "compute_qqq_return": "Compute QQQ (Nasdaq 100) return.",
+        "compute_iwm_return": "Compute IWM (Russell 2000) return.",
+        "compute_fed_rate": "Get Federal Funds Rate (forward-filled to hourly).",
+        "compute_cpi": "Get CPI value (forward-filled to hourly)."
+      }
+    },
+    "embeddings": {
+      "description": "Text embeddings from company profiles",
+      "scope": "Per ticker",
+      "frequency": "Monthly",
+      "source": "company_profiles",
+      "path_pattern": "features/embeddings/{ticker}.npy",
+      "dimension": 384,
+      "model": "None",
+      "tickers": [
+        "AAPL",
+        "JNJ"
+      ]
+    }
+  },
+  "scope_summary": {
+    "per_ticker": [
+      "independent_factors",
+      "embeddings"
+    ],
+    "shared_all": [
+      "shared_factors (SPY, VIX, QQQ, IWM returns, Fed rate, CPI)"
+    ]
+  },
+  "tools_used": [
+    "compute_log_return_y",
+    "compute_return_1h",
+    "compute_return_5h",
+    "compute_rsi",
+    "compute_volatility",
+    "compute_macd",
+    "compute_macd_signal",
+    "compute_macd_hist",
+    "compute_volume_ratio",
+    "compute_price_range",
+    "compute_sector_return",
+    "compute_spy_return",
+    "compute_vix_level",
+    "compute_qqq_return",
+    "compute_iwm_return",
+    "compute_fed_rate",
+    "compute_cpi",
+    "compute_company_embedding"
+  ]
+}

@@ -4,7 +4,7 @@ Agents package for the Quant Trading Agent System.
 
 from .base_agent import BaseAgent, AgentOutput
 from .data_agent import DataAgent
-from .feature_agent import FeatureEngineeringAgent
+from .feature_agent import FeatureAgent
 from .quant_model_agent import QuantModelingAgent, ModelPrediction
 from .market_sense_agent import MarketSenseAgent, MarketInsight
 from .coordinator_agent import (
@@ -19,7 +19,7 @@ __all__ = [
     "BaseAgent",
     "AgentOutput",
     "DataAgent",
-    "FeatureEngineeringAgent",
+    "FeatureAgent",
     "QuantModelingAgent",
     "ModelPrediction",
     "MarketSenseAgent",

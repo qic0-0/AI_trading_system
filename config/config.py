@@ -6,14 +6,14 @@ This module contains all configuration parameters including:
 - Data source API keys
 - Portfolio constraints
 - Model parameters
+- Embedding settings
 """
 
 from dataclasses import dataclass
 from typing import Optional
 import os
 
-os.environ.setdefault('FINNHUB_API_KEY', 'd4o83k9r01quuso86nr0d4o83k9r01quuso86nrg')
-os.environ.setdefault('FRED_API_KEY', '58fa5225eb36955a2517348c39979576')
+
 
 @dataclass
 class LLMConfig:
@@ -32,16 +32,16 @@ class LLMConfig:
 @dataclass
 class DataSourceConfig:
     """Configuration for data source APIs."""
-    
+
     # Yahoo Finance - no API key needed
     yfinance_enabled: bool = True
-    
+
     # Finnhub for news
     finnhub_api_key: str = os.getenv("FINNHUB_API_KEY", "")
-    
+
     # Alpha Vantage for news (alternative)
     alpha_vantage_api_key: str = os.getenv("ALPHA_VANTAGE_API_KEY", "")
-    
+
     # FRED for economic data
     fred_api_key: str = os.getenv("FRED_API_KEY", "")
 
@@ -49,7 +49,7 @@ class DataSourceConfig:
 @dataclass
 class PortfolioConfig:
     """Configuration for portfolio constraints."""
-    
+
     initial_cash: float = 100000.0
     max_position_pct: float = 0.80  # Max 30% in single position
     min_cash_reserve_pct: float = 0.05  # Keep 10% in cash
@@ -59,26 +59,43 @@ class PortfolioConfig:
 class ModelConfig:
     """Configuration for quant model."""
 
-    model_type: str = "hmm"  # "hmm" or "xgboost"
-    model_path: str = "models/"  # Directory for model files
-    design_doc_path: str = "config/model_design.md"  # HMM design
-    xgboost_design_doc_path: str = "config/model_design_xgboost.md"  # XGBoost design
     retrain_frequency_days: int = 30
-    n_states: int = 3  # Bull, Bear, Sideways (HMM only)
-    prediction_horizon: int = 5  # 5-day returns
+    data_dir: str = "test_data"          # expects {data_dir}/features/
+    models_dir: str = "models"      # expects {models_dir}/{model_name}/
+    model_name: str = "RNN_based_multi_hour"
+
+    # User-chosen y: must be a key in {data_dir}/features/feature_dictionary.json
+    target_factor: str = "compute_log_return_y"
+
+    # Policies (match your preference: fail fast)
+    stop_on_failure: bool = True
+
+    # If model.py is provided by user, do NOT modify it
+    provided_model_code_is_readonly: bool = True
+
+    # If features/data missing, this is user/setup error (do not try to “fix” in code)
+    missing_data_is_user_error: bool = True
+
+    model_description_path = f"{models_dir}/{model_name}/model_description.md"
 
 
 @dataclass
 class RAGConfig:
-    """Configuration for RAG knowledge base."""
+    """Configuration for RAG knowledge base and embeddings."""
 
     vector_db_path: str = "knowledge/vector_store"
-    embedding_model: str = "all-MiniLM-L6-v2"  # sentence-transformers model
     chunk_size: int = 500
     top_k_results: int = 5
     news_top_k: int = 5
     knowledge_top_k: int = 3
     historical_events_top_k: int = 2
+
+    # Embedding API settings (Argonne)
+    embedding_api_base_url: str = "https://inference-api.alcf.anl.gov/resource_server/sophia/vllm/v1"
+    embedding_model: str = "None"
+
+    # Alternative: local sentence-transformers (fallback)
+    local_embedding_model: str = "all-MiniLM-L6-v2"
 
 
 @dataclass

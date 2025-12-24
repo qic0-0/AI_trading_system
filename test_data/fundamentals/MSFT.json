@@ -1,0 +1,15 @@
+{
+  "ticker": "MSFT",
+  "pe_ratio": 34.61242,
+  "forward_pe": 25.872915,
+  "pb_ratio": 9.928747,
+  "market_cap": 3604491010048,
+  "dividend_yield": 0.75,
+  "beta": 1.07,
+  "52_week_high": 555.45,
+  "52_week_low": 344.79,
+  "avg_volume": 23180471,
+  "sector": "Technology",
+  "industry": "Software - Infrastructure",
+  "fetched_at": "2025-12-22 19:31:07"
+}

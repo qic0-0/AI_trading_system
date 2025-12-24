@@ -1,0 +1,123 @@
+{
+  "generated_at": "2025-12-22 19:31:08",
+  "tickers": [
+    "AAPL",
+    "MSFT",
+    "JPM",
+    "XOM",
+    "JNJ"
+  ],
+  "datasets": {
+    "price_data": {
+      "description": "Hourly OHLCV price data for each stock",
+      "scope": "Per ticker",
+      "frequency": "Hourly",
+      "source": "yfinance",
+      "columns": [
+        "Open",
+        "High",
+        "Low",
+        "Close",
+        "Volume"
+      ],
+      "market_hours": "9:30 AM - 3:30 PM ET",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "JPM",
+        "XOM",
+        "JNJ"
+      ]
+    },
+    "market_data": {
+      "description": "Hourly data for market indices and sector ETFs",
+      "scope": "Shared (all tickers)",
+      "frequency": "Hourly",
+      "source": "yfinance",
+      "indices": {
+        "SPY": "S&P 500 ETF - Market benchmark",
+        "QQQ": "Nasdaq 100 ETF - Tech benchmark",
+        "IWM": "Russell 2000 ETF - Small cap",
+        "VIX": "Volatility Index - Fear gauge"
+      },
+      "sector_etfs": {
+        "XLK": "Technology sector ETF",
+        "XLF": "Financial Services sector ETF",
+        "XLE": "Energy sector ETF",
+        "XLV": "Healthcare sector ETF"
+      }
+    },
+    "fundamentals": {
+      "description": "Company fundamental data",
+      "scope": "Per ticker",
+      "frequency": "Daily",
+      "source": "yfinance",
+      "fields": [
+        "pe_ratio",
+        "forward_pe",
+        "pb_ratio",
+        "market_cap",
+        "dividend_yield",
+        "beta",
+        "52_week_high",
+        "52_week_low",
+        "avg_volume",
+        "sector",
+        "industry"
+      ],
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "JPM",
+        "XOM",
+        "JNJ"
+      ]
+    },
+    "company_profiles": {
+      "description": "Company text profiles for embedding",
+      "scope": "Per ticker",
+      "frequency": "Monthly",
+      "source": "yfinance",
+      "fields": [
+        "company_name",
+        "sector",
+        "industry",
+        "business_summary",
+        "website",
+        "country",
+        "employees"
+      ],
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "JPM",
+        "XOM",
+        "JNJ"
+      ]
+    },
+    "economic_indicators": {
+      "description": "Macroeconomic indicators from FRED",
+      "scope": "Shared (all tickers)",
+      "frequency": "Daily",
+      "source": "FRED",
+      "indicators": [
+        "FEDFUNDS",
+        "CPIAUCSL"
+      ]
+    }
+  },
+  "scope_summary": {
+    "per_ticker": [
+      "price_data",
+      "fundamentals",
+      "company_profiles"
+    ],
+    "shared_all": [
+      "market_data (indices: SPY, QQQ, IWM, VIX)",
+      "economic_indicators"
+    ],
+    "shared_by_sector": [
+      "market_data (sector ETFs: XLK, XLF, XLE, XLV)"
+    ]
+  }
+}

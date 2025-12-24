@@ -1,0 +1,15 @@
+{
+  "ticker": "XOM",
+  "pe_ratio": 16.95122,
+  "forward_pe": 16.443409,
+  "pb_ratio": 1.9122455,
+  "market_cap": 503702650880,
+  "dividend_yield": 3.53,
+  "beta": 0.379,
+  "52_week_high": 120.81,
+  "52_week_low": 97.8,
+  "avg_volume": 15058950,
+  "sector": "Energy",
+  "industry": "Oil & Gas Integrated",
+  "fetched_at": "2025-12-22 19:31:07"
+}

@@ -1,0 +1,109 @@
+{
+  "source_format": {
+    "resolution": "hourly",
+    "bars_per_day": 7,
+    "trading_hours": [
+      "09:30",
+      "10:30",
+      "11:30",
+      "12:30",
+      "13:30",
+      "14:30",
+      "15:30"
+    ],
+    "independent_factors": [
+      "compute_log_return_y",
+      "compute_return_1h",
+      "compute_return_5h",
+      "compute_rsi",
+      "compute_volatility",
+      "compute_macd",
+      "compute_macd_signal",
+      "compute_macd_hist",
+      "compute_volume_ratio",
+      "compute_price_range",
+      "compute_sector_return"
+    ],
+    "shared_factors": [
+      "compute_spy_return",
+      "compute_vix_level",
+      "compute_qqq_return",
+      "compute_iwm_return",
+      "compute_fed_rate",
+      "compute_cpi"
+    ],
+    "embedding_dim": 384
+  },
+  "target_format": {
+    "input_resolution": "daily",
+    "output_steps": 7,
+    "column_convention": "x_{feat}_s{series}"
+  },
+  "y_config": {
+    "column": "compute_log_return_y",
+    "prediction_horizon": 1,
+    "shift_direction": "x_forward",
+    "shift_steps": 1,
+    "expand_to_columns": true,
+    "output_columns": 7
+  },
+  "x_config": {
+    "independent_factors": {
+      "columns": [
+        "compute_return_1h",
+        "compute_return_5h",
+        "compute_rsi",
+        "compute_volatility",
+        "compute_macd",
+        "compute_macd_signal",
+        "compute_macd_hist",
+        "compute_volume_ratio",
+        "compute_price_range",
+        "compute_sector_return"
+      ],
+      "aggregations": {
+        "compute_return_1h": "mean",
+        "compute_return_5h": "mean",
+        "compute_rsi": "last",
+        "compute_volatility": "mean",
+        "compute_macd": "last",
+        "compute_macd_signal": "last",
+        "compute_macd_hist": "last",
+        "compute_volume_ratio": "mean",
+        "compute_price_range": "mean",
+        "compute_sector_return": "mean"
+      }
+    },
+    "shared_factors": {
+      "columns": [
+        "compute_spy_return",
+        "compute_vix_level",
+        "compute_qqq_return",
+        "compute_iwm_return",
+        "compute_fed_rate",
+        "compute_cpi"
+      ],
+      "aggregations": {
+        "compute_spy_return": "mean",
+        "compute_vix_level": "last",
+        "compute_qqq_return": "mean",
+        "compute_iwm_return": "mean",
+        "compute_fed_rate": "last",
+        "compute_cpi": "last"
+      }
+    },
+    "embeddings": {
+      "broadcast": true,
+      "dimension": 384
+    }
+  },
+  "model_config_overrides": {
+    "H": 7,
+    "reason": "Source data has 7 trading hours per day, setting H=7 to match"
+  },
+  "blocking_issues": [],
+  "warnings": [
+    "Source data has hourly resolution, but target model expects daily resolution. Aggregating independent and shared factors using mean and last values respectively.",
+    "Embeddings are broadcast to all timestamps. Ensure this is correct for the model."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "ticker": "AAPL",
+  "pe_ratio": 36.61757,
+  "forward_pe": 29.629297,
+  "pb_ratio": 54.291725,
+  "market_cap": 4021300494336,
+  "dividend_yield": 0.38,
+  "beta": 1.107,
+  "52_week_high": 288.62,
+  "52_week_low": 169.21,
+  "avg_volume": 47652557,
+  "sector": "Technology",
+  "industry": "Consumer Electronics",
+  "fetched_at": "2025-12-22 19:31:07"
+}

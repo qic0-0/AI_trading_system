@@ -16,7 +16,7 @@ Agents:
 Usage:
     python main.py --mode predict --ticker AAPL
     python main.py --mode backtest --ticker AAPL --start 2023-01-01 --end 2024-01-01
-    python main.py --mode train --config config/model_design.md
+    python main.py --mode train --config config/model_description.md
 """
 
 __version__ = "0.1.0"

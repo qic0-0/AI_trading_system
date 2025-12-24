@@ -1,0 +1,15 @@
+{
+  "ticker": "JPM",
+  "pe_ratio": 15.722141,
+  "forward_pe": 15.25339,
+  "pb_ratio": 2.5856094,
+  "market_cap": 888417943552,
+  "dividend_yield": 1.89,
+  "beta": 1.075,
+  "52_week_high": 323.2299,
+  "52_week_low": 202.16,
+  "avg_volume": 8805185,
+  "sector": "Financial Services",
+  "industry": "Banks - Diversified",
+  "fetched_at": "2025-12-22 19:31:07"
+}

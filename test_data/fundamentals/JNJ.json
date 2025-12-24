@@ -1,0 +1,15 @@
+{
+  "ticker": "JNJ",
+  "pe_ratio": 19.915466,
+  "forward_pe": 17.967768,
+  "pb_ratio": 6.292531,
+  "market_cap": 499495075840,
+  "dividend_yield": 2.52,
+  "beta": 0.349,
+  "52_week_high": 215.19,
+  "52_week_low": 140.68,
+  "avg_volume": 8979204,
+  "sector": "Healthcare",
+  "industry": "Drug Manufacturers - General",
+  "fetched_at": "2025-12-22 19:31:07"
+}

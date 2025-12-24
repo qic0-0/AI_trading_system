@@ -1,0 +1,7 @@
+{
+  "blocking_issues": [],
+  "warnings": [
+    "Source data has hourly resolution, but target model expects daily resolution. Aggregating independent and shared factors using mean and last values respectively.",
+    "Embeddings are broadcast to all timestamps. Ensure this is correct for the model."
+  ]
+}

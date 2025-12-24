@@ -1,0 +1,26 @@
+{
+  "import_test": {
+    "passed": false,
+    "error": "Adapter import failed: \"Column(s) ['compute_cpi', 'compute_fed_rate', 'compute_iwm_return', 'compute_qqq_return', 'compute_spy_return', 'compute_vix_level'] do not exist\""
+  },
+  "data_load_test": {
+    "passed": false,
+    "error": null
+  },
+  "transform_test": {
+    "passed": false,
+    "error": null
+  },
+  "train_test": {
+    "passed": false,
+    "error": null
+  },
+  "predict_test": {
+    "passed": false,
+    "error": null
+  },
+  "overall": {
+    "passed": false,
+    "error": "Import test failed"
+  }
+}

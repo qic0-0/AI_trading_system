@@ -60,7 +60,7 @@ class QuantModelingAgent(BaseAgent):
         self.design_docs = {
             "hmm": config.model.design_doc_path,  # Original HMM design
             "xgboost": getattr(config.model, 'xgboost_design_doc_path',
-                               config.model.design_doc_path.replace('model_design.md', 'model_design_xgboost.md'))
+                               config.model.design_doc_path.replace('model_description.md', 'model_design_xgboost.md'))
         }
 
         # Default model type (can be overridden in run())
