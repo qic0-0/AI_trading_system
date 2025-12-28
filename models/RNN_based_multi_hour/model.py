@@ -41,7 +41,6 @@ def simple_dst_fix(df: pd.DataFrame, start_at_midnight: bool = True) -> pd.DataF
     return out
 
 
-
 def build_model_dp(model_cls, *args, **kwargs):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = model_cls(*args, **kwargs).to(device)
@@ -60,6 +59,7 @@ def load_state(model, path, map_location="cpu"):
     target.load_state_dict(sd)
 
 def append_fourier_features(df_wide, K, period_days,
+                            H,
                             mode="vector",
                             start_idx=None,
                             start_day = None):
@@ -76,9 +76,6 @@ def append_fourier_features(df_wide, K, period_days,
     P = float(period_days)
 
     N = len(df_wide);
-    H = len([c for c in df_wide.columns if c.startswith("y_") and c.endswith("_s0")])
-    if H == 0:
-        H = len([c for c in df_wide.columns if c.startswith("y_")])
 
     if mode == "vector":
         feats = np.empty((N, 2 * K), dtype=np.float64)
@@ -662,13 +659,13 @@ class RNN_fourier(nn.Module):
         df_wide = df_wide.sort_values("day")
 
         # Add Fourier features
-        df_wide, _ = append_fourier_features(df_wide, K=fourier_config.K_weekly,
+        df_wide, _ = append_fourier_features(df_wide, H = self.H, K=fourier_config.K_weekly,
                                              period_days=fourier_config.P_WEEK, mode=fourier_config.mode,
                                              start_day=start_day)
-        df_wide, _ = append_fourier_features(df_wide, K=fourier_config.K_monthly,
+        df_wide, _ = append_fourier_features(df_wide, H = self.H, K=fourier_config.K_monthly,
                                              period_days=fourier_config.P_MONTH, mode=fourier_config.mode,
                                              start_day=start_day)
-        df_wide, _ = append_fourier_features(df_wide, K=fourier_config.K_yearly,
+        df_wide, _ = append_fourier_features(df_wide, H = self.H, K=fourier_config.K_yearly,
                                              period_days=fourier_config.P_yearly, mode=fourier_config.mode,
                                              start_day=start_day)
 

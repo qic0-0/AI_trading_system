@@ -13,7 +13,8 @@ from dataclasses import dataclass
 from typing import Optional
 import os
 
-
+os.environ.setdefault('FINNHUB_API_KEY', 'd4o83k9r01quuso86nr0d4o83k9r01quuso86nrg')
+os.environ.setdefault('FRED_API_KEY', '58fa5225eb36955a2517348c39979576')
 
 @dataclass
 class LLMConfig:

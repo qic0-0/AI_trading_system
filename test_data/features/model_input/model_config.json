@@ -1,0 +1,43 @@
+{
+  "n_series": 2,
+  "n_shared": 6,
+  "n_indep": [
+    10,
+    10
+  ],
+  "H": 7,
+  "text_embed_dims": [
+    384
+  ],
+  "tickers": [
+    "AAPL",
+    "JNJ"
+  ],
+  "ticker_to_series": {
+    "AAPL": 0,
+    "JNJ": 1
+  },
+  "feature_to_idx": {
+    "compute_return_1h": 0,
+    "compute_return_5h": 1,
+    "compute_rsi": 2,
+    "compute_volatility": 3,
+    "compute_macd": 4,
+    "compute_macd_signal": 5,
+    "compute_macd_hist": 6,
+    "compute_volume_ratio": 7,
+    "compute_price_range": 8,
+    "compute_sector_return": 9
+  },
+  "share_to_idx": {
+    "compute_spy_return": 0,
+    "compute_vix_level": 1,
+    "compute_qqq_return": 2,
+    "compute_iwm_return": 3,
+    "compute_fed_rate": 4,
+    "compute_cpi": 5
+  },
+  "y_column": "compute_log_return_y",
+  "prediction_horizon": 1,
+  "embedding_dim": 384
+}
